@@ -1,0 +1,14 @@
+2016-07-04 3:32:37 - PHP Notice:  Undefined variable: category in /home/sam/sites/localhost5/catalog/view/theme/copy_default/template/common/header.tpl on line 570
+2016-07-04 4:56:54 - PHP Notice:  Undefined variable: informations in /home/sam/sites/localhost5/catalog/view/theme/copy_default/template/common/header.tpl on line 666
+2016-07-04 5:01:37 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /home/sam/sites/localhost5/catalog/controller/common/header.php on line 153
+2016-07-04 5:05:53 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /home/sam/sites/localhost5/catalog/controller/common/header.php on line 153
+2016-07-04 5:07:14 - PHP Notice:  Undefined variable: text_information in /home/sam/sites/localhost5/catalog/view/theme/copy_default/template/common/header.tpl on line 668
+2016-07-04 5:19:58 - PHP Notice:  Undefined variable: text_service in /home/sam/sites/localhost5/catalog/view/theme/copy_default/template/common/header.tpl on line 709
+2016-07-04 5:19:58 - PHP Notice:  Undefined variable: text_contact in /home/sam/sites/localhost5/catalog/view/theme/copy_default/template/common/header.tpl on line 711
+2016-07-04 5:19:58 - PHP Notice:  Undefined variable: text_return in /home/sam/sites/localhost5/catalog/view/theme/copy_default/template/common/header.tpl on line 712
+2016-07-04 5:20:53 - PHP Notice:  Undefined variable: text_contact in /home/sam/sites/localhost5/catalog/view/theme/copy_default/template/common/header.tpl on line 711
+2016-07-04 5:20:53 - PHP Notice:  Undefined variable: text_return in /home/sam/sites/localhost5/catalog/view/theme/copy_default/template/common/header.tpl on line 712
+2016-07-04 5:25:58 - PHP Notice:  Undefined variable: data in /home/sam/sites/localhost5/catalog/view/theme/copy_default/template/common/header.tpl on line 710
+2016-07-04 5:25:58 - PHP Notice:  Undefined variable: data in /home/sam/sites/localhost5/catalog/view/theme/copy_default/template/common/header.tpl on line 711
+2016-07-04 5:27:16 - PHP Notice:  Undefined variable: data in /home/sam/sites/localhost5/catalog/view/theme/copy_default/template/common/header.tpl on line 710
+2016-07-04 5:27:16 - PHP Notice:  Undefined variable: data in /home/sam/sites/localhost5/catalog/view/theme/copy_default/template/common/header.tpl on line 711
