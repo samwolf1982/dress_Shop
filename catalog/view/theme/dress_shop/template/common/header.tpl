@@ -526,7 +526,7 @@
 </div>
 <!--start-->
 
-<section id="nicdark_parallax_title" class="nicdark_section nicdark_imgparallax" style="background:url(catalog/view/theme/dress_shop/image/img/parallax/fa2.jpg) 50% 0 fixed; background-size:cover;">
+<!-- <section id="nicdark_parallax_title" class="nicdark_section nicdark_imgparallax" style="background:url(catalog/view/theme/dress_shop/image/img/parallax/fa2.jpg) 50% 0 fixed; background-size:cover;">
 
     <div class="nicdark_filter greydark center">
         <div class="nicdark_space_block100"></div>
@@ -543,7 +543,7 @@
         <div class="nicdark_space_block40"></div>
         <div class="nicdark_space_block50"></div>
     </div>    
-</section>
+</section> -->
 <!--end section-->
 
 
