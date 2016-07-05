@@ -8,22 +8,23 @@
     <img src="<?php echo $paralax['image']; ?>" alt="<?php echo $paralax['title']; ?>" class="img-responsive" />
     <?php } ?>
 
+catalog/view/theme/dress_shop/image/img/parallax/fa2.jpg
+
   <?php } ?> -->
 
 
-
-<section id="nicdark_parallax_title" class="nicdark_section nicdark_imgparallax" style="background:url(catalog/view/theme/dress_shop/image/img/parallax/fa2.jpg) 50% 0 fixed; background-size:cover;">
+<section id="nicdark_parallax_title" class="nicdark_section nicdark_imgparallax" style="background:url(<?php echo $paralax['src_image']; ?>) 50% 0 fixed; background-size:cover;">
 <a href="<?php echo $paralax['link']; ?>">
     <div class="nicdark_filter greydark center">
         <div class="nicdark_space_block100"></div>
         <div class="nicdark_space_block100"></div>
         <div class="nicdark_btn nicdark_border_white medium white">
             <div class="nicdark_space_block10"></div>
-            <h1 class=" white"><?php echo $paralax['title']; ?></h1>
+            <h1 class=" white"><?php echo $paralax['title1']; ?></h1>
             <div class="nicdark_space_block20"></div>
             <div class="nicdark_divider small"><span class="nicdark_bg_white"></span></div>
             <div class="nicdark_space_block20"></div>
-            <h4 class=" white"><?php echo $paralax['title']; ?></h4>
+            <h4 class=" white"><?php echo $paralax['title2']; ?></h4>
             <div class="nicdark_space_block10"></div>   
         </div>
         <div class="nicdark_space_block40"></div>

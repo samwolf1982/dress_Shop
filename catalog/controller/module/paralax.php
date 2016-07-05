@@ -15,10 +15,31 @@ class ControllerModuleParalax extends Controller {
 
 		foreach ($results as $result) {
 			if (is_file(DIR_IMAGE . $result['image'])) {
+
+ 
+				$array_title= explode(';', $result['title']); 
+				if (count($array_title)==0) {
+					# code...
+                        $array_title=array('','');
+				}else if (count($array_title)==1) {
+					# code...
+					$array_title[1]='';
+				}
+
+
+/*
+print_r(var_dump($roo));
+die();*/
 				$data['paralaxses'][] = array(
 					'title' => $result['title'],
 					'link'  => $result['link'],
-					'image' => $this->model_tool_image->resize($result['image'], $setting['width'], $setting['height'])
+					'image' => $this->model_tool_image->resize($result['image'], $setting['width'], $setting['height']
+
+
+						),
+					'title1' => $array_title[0],
+'title2' => $array_title[1],
+'src_image' =>'image/'.$result['image']
 				);
 			}
 		}
