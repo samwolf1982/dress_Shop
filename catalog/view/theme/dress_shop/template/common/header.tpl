@@ -456,7 +456,7 @@
                         <div class="nicdark_space25"></div>
 
                         <div class="nicdark_logo">
-                            <a class="nicdark_logo_normal" href="index.html"><img alt="" src="catalog/view/theme/dress_shop/image/img/logo.png"></a>
+                            <a class="nicdark_logo_normal" href=""><img alt="" src="catalog/view/theme/dress_shop/image/img/logo.png"></a>
                             <a class="nicdark_logo_transparent" href="index.html"><img alt="" src="catalog/view/theme/dress_shop/image/img/logo-white.png"></a>
                         </div>
 

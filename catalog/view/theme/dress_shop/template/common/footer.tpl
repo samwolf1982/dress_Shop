@@ -101,9 +101,13 @@ Please donate via PayPal to donate@opencart.com
 
     </div>
             
-            
+
+                  
+
                                 </div>
-<!--end section-->        </div>
+<!--end section-->      
+
+  </div>
     </div>
 
     <!--main-->
@@ -151,8 +155,20 @@ Please donate via PayPal to donate@opencart.com
 
     jQuery(window).load(function() {
         jQuery(".nicdark_preloader").delay(1000).fadeOut("slow");
+          $('#a1').attr("href", "#tabs-1");
+             $('#a2').attr("href", "#tabs-2");
+ 
+
     })
 
 </script>
+
+
+
+
+
+
+
+
 
 </body></html>

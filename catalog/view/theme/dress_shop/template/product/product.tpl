@@ -295,8 +295,8 @@
             <div class="nicdark_tab">
                 
                 <ul class="nicdark_tabslist">
-                    <li><a  class="title nicdark_btn nicdark_bg_bluedark nicdark_border_blue medium white"><i class="icon-info-1 nicdark_marginright10 nicdark_displaynone_ipadpotr nicdark_displaynone_iphonepotr"></i>INFORMATION</a></li>
-                    <li><a  class="title nicdark_btn nicdark_bg_bluedark nicdark_border_blue medium  white"><i class="icon-star nicdark_marginright10 nicdark_displaynone_ipadpotr nicdark_displaynone_iphonepotr"></i>REVIEWS (2)</a></li>
+                    <li><a  id="a1" class="title nicdark_btn nicdark_bg_bluedark nicdark_border_blue medium white"><i class="icon-info-1 nicdark_marginright10 nicdark_displaynone_ipadpotr nicdark_displaynone_iphonepotr"></i>INFORMATION</a></li>
+                    <li><a  id="a2" class="title nicdark_btn nicdark_bg_bluedark nicdark_border_blue medium  white"><i class="icon-star nicdark_marginright10 nicdark_displaynone_ipadpotr nicdark_displaynone_iphonepotr"></i>REVIEWS (2)</a></li>
                 </ul>
 
                 <div class="nicdark_tabs nicdark_border_grey nicdark_bg_grey">
