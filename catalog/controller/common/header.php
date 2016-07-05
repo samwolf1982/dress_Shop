@@ -41,6 +41,11 @@ $this->document->addScript('catalog/view/theme/dress_shop/js/settings.js');*/
 /*$this->document->addScript('catalog/view/theme/dress_shop/');
 $this->document->addScript('catalog/view/theme/dress_shop/');*/
 //$this->document->addStyle('catalog/view/theme/dress_shop/stylesheet/css/');
+      
+$data['text_special'] = $this->language->get('text_special');
+$data['special'] = $this->url->link('product/special');
+
+
        //   OWN  CODE   E
 
 
@@ -126,7 +131,7 @@ $this->document->addScript('catalog/view/theme/dress_shop/');*/
 		$data['checkout'] = $this->url->link('checkout/checkout', '', true);
 		$data['contact'] = $this->url->link('information/contact');
 		$data['telephone'] = $this->config->get('config_telephone');
-
+     
 		// Menu
 		$this->load->model('catalog/category');
 

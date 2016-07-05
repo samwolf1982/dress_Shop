@@ -1,5 +1,5 @@
-<footer>
-  <div class="container">
+<!-- <footer> -->
+ <!--  <div class="container">
     <div class="row">
       <?php if ($informations) { ?>
       <div class="col-sm-3">
@@ -40,8 +40,8 @@
     </div>
     <hr>
     <p><?php echo $powered; ?></p>
-  </div>
-</footer>
+  </div> -->
+<!-- </footer> -->
 
 <!--
 OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
@@ -49,7 +49,62 @@ Please donate via PayPal to donate@opencart.com
 //-->
 
 <!-- Theme created by Welford Media for OpenCart 2.0 www.welfordmedia.co.uk -->
+<!--start section-->
+<div class="nicdark_section">
 
+    <div class="nicdark_section nicdark_bg_gradient2">
+
+        <!--start nicdark_container-->
+        <div class="nicdark_container nicdark_clearfix">
+
+            
+            <div class="grid grid_6 nicdark_bg_greydark2 percentage">
+                
+                <div class="nicdark_activity nicdark_bg_green">
+                    <div class="nicdark_space5"></div>
+                    <p class="greydark title"><small>
+                        <i class="icon-up"></i>&nbsp;&nbsp;<a class="greydark nicdark_internal_link" href="#start_nicdark_framework">Back To Top</a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="greendark nicdark_displaynone_ipadpotr nicdark_displaynone_iphoneland nicdark_displaynone_iphonepotr">|</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="nicdark_displaynone_ipadpotr nicdark_displaynone_iphoneland nicdark_displaynone_iphonepotr">©</span>&nbsp;&nbsp;<a class="greydark nicdark_displaynone_ipadpotr nicdark_displaynone_iphoneland nicdark_displaynone_iphonepotr" href="#">Copyright NicDark - Made With <i class="icon-heart-filled red nicdark_zoom_hover"></i> In Venice</a></small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </p>
+                    <div class="nicdark_space5"></div>
+                </div>
+                
+                <div class="nicdark_activity nicdark_bg_greendark nicdark_oblique_left">
+                    <div class="nicdark_space5"></div>
+                    <p class="greydark">
+                        <small><i class="icon-angle-left greendark"></i></small>
+                    </p>
+                    <div class="nicdark_space5"></div>
+                </div>
+                    
+            </div>
+
+
+            <div class="grid grid_6 nicdark_displaynone_iphoneland nicdark_displaynone_iphonepotr nicdark_bg_greydark2 percentage right">
+                <div class="nicdark_focus right">
+                    <div class="nicdark_space5"></div>
+                    <p class="white title"><small>
+                        &nbsp;&nbsp;<a class="white" href="#">ABOUT US</a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="greydark2">|</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;<a class="white" href="#">DESIGNER</a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="greydark2">|</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;<a class="white" href="#">SHOP</a></small>&nbsp;&nbsp;
+                    </p>
+                    <div class="nicdark_space5"></div>
+                </div>
+            </div>
+            
+
+        </div>
+        <!--end nicdark_container-->
+
+    </div>
+            
+            
+                                </div>
+<!--end section-->        </div>
+    </div>
 
     <!--main-->
     <script src="catalog/view/theme/dress_shop/js/main/jquery.min.js"></script> <!--Jquery-->

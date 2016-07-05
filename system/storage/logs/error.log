@@ -12,3 +12,12 @@
 2016-07-04 5:25:58 - PHP Notice:  Undefined variable: data in /home/sam/sites/localhost5/catalog/view/theme/copy_default/template/common/header.tpl on line 711
 2016-07-04 5:27:16 - PHP Notice:  Undefined variable: data in /home/sam/sites/localhost5/catalog/view/theme/copy_default/template/common/header.tpl on line 710
 2016-07-04 5:27:16 - PHP Notice:  Undefined variable: data in /home/sam/sites/localhost5/catalog/view/theme/copy_default/template/common/header.tpl on line 711
+2016-07-05 4:29:45 - PHP Notice:  Undefined variable: special in /home/sam/sites/localhost5/catalog/view/theme/dress_shop/template/common/header.tpl on line 483
+2016-07-05 4:29:45 - PHP Notice:  Undefined variable: text_special in /home/sam/sites/localhost5/catalog/view/theme/dress_shop/template/common/header.tpl on line 483
+2016-07-05 8:23:32 - PHP Notice:  Undefined variable: image in /home/sam/sites/localhost5/catalog/view/theme/dress_shop/template/product/product.tpl on line 146
+2016-07-05 8:23:32 - PHP Notice:  Undefined variable: image in /home/sam/sites/localhost5/catalog/view/theme/dress_shop/template/product/product.tpl on line 146
+2016-07-05 8:25:12 - PHP Notice:  Undefined variable: image in /home/sam/sites/localhost5/catalog/view/theme/dress_shop/template/product/product.tpl on line 146
+2016-07-05 8:25:12 - PHP Notice:  Undefined variable: image in /home/sam/sites/localhost5/catalog/view/theme/dress_shop/template/product/product.tpl on line 146
+2016-07-05 8:30:29 - PHP Notice:  Undefined variable: image in /home/sam/sites/localhost5/catalog/view/theme/dress_shop/template/product/product.tpl on line 139
+2016-07-05 8:30:29 - PHP Notice:  Undefined variable: image in /home/sam/sites/localhost5/catalog/view/theme/dress_shop/template/product/product.tpl on line 139
+2016-07-05 9:17:19 - PHP Notice:  Undefined variable: result in /home/sam/sites/localhost5/catalog/view/theme/dress_shop/template/product/product.tpl on line 241

@@ -7,7 +7,7 @@
 <!--<![endif]-->
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--meta responsive-->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title><?php echo $title; ?></title>
 <base href="<?php echo $base; ?>" />
@@ -17,17 +17,60 @@
 <?php if ($keywords) { ?>
 <meta name="keywords" content= "<?php echo $keywords; ?>" />
 <?php } ?>
-<script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+<!-- <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
 <link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
 <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-<link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css" />
+<link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css" /> -->
 
 
-<!-- <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet"> -->
+<link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+
+    
 
 
-<?php foreach ($styles as $style) { ?>
+
+
+
+
+
+
+    
+    <!--START CSS--> 
+    <link rel="stylesheet" href="catalog/view/theme/dress_shop/stylesheet/css/nicdark_style.css"> <!--style-->
+    <link rel="stylesheet" href="catalog/view/theme/dress_shop/stylesheet/css/nicdark_responsive.css"> <!--nicdark_responsive-->
+
+    <!--revslider-->
+    <link rel="stylesheet" href="catalog/view/theme/dress_shop/stylesheet/css/revslider/settings.css"> <!--revslider-->
+
+    <!--END CSS-->
+    
+    <!--google fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'> <!-- font-family: 'Raleway', sans-serif; -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'> <!--Roboto-->
+    <link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900,700' rel='stylesheet' type='text/css'> <!--Cinzel-->
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'> <!--Great Vibes-->
+
+    <!--[if lt IE 9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
+    <![endif]-->  
+    
+    <!--FAVICONS-->
+    <link rel="shortcut icon" href="catalog/view/theme/dress_shop/image/img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" href="catalog/view/theme/dress_shop/image/img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="catalog/view/theme/dress_shop/image/img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="catalog/view/theme/dress_shop/image/img/favicon/apple-touch-icon-114x114.png">
+    <!--END FAVICONS-->
+
+
+
+
+
+
+
+
+
+<!-- <?php foreach ($styles as $style) { ?>
 <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
 <?php } ?>
 <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
@@ -36,7 +79,9 @@
 <?php } ?>
 <?php foreach ($scripts as $script) { ?>
 <script src="<?php echo $script; ?>" type="text/javascript"></script>
-<?php } ?>
+<?php } ?> -->
+
+
 <?php foreach ($analytics as $analytic) { ?>
 <?php echo $analytic; ?>
 <?php } ?>
@@ -284,6 +329,13 @@
 
 </div>
 <!--END SIDEBAR-->
+
+
+
+
+
+
+
 <div class="nicdark_section nicdark_navigation">
     
     <div class="nicdark_menu_fullwidth">
@@ -310,9 +362,34 @@
                             <p class="greydark"><small>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="icon-globe-2"></i>&nbsp;&nbsp;<a class="greydark nicdark_mpopup_window nicdark_outline" href="#nicdark_window">LANGUAGES</a>
                                 &nbsp;&nbsp;&nbsp;&nbsp;<span class="greendark">|</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                                <i class="icon-plus"></i>&nbsp;&nbsp;<a class="greydark nicdark_mpopup_ajax nicdark_outline" href="form-register.html">REGISTER</a>
-                                &nbsp;&nbsp;&nbsp;&nbsp;<span class="greendark">|</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                                <i class="icon-lock"></i>&nbsp;&nbsp;<a class="greydark nicdark_mpopup_ajax nicdark_outline" href="form-login.html">LOG IN</a></small>
+
+                          <i class="icon-plus"> </i>&nbsp;&nbsp;
+
+  <?php if ($logged) { ?>
+           <!--  <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
+            <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
+            <li><a href="<?php echo $transaction; ?>"><?php echo $text_transaction; ?></a></li>
+            <li><a href="<?php echo $download; ?>"><?php echo $text_download; ?></a></li>
+            <li><a href="<?php echo $logout; ?>"><?php echo $text_logout; ?></a></li> -->
+
+            <a class="greydark nicdark_mpopup_ajax nicdark_outline" href="<?php echo $logout; ?>"><?php echo  mb_strtoupper($text_logout); ?></a>
+            <?php } else { ?>
+     <a class="greydark nicdark_mpopup_ajax nicdark_outline" href="<?php echo $register; ?>"><?php echo mb_strtoupper( $text_register); ?></a>
+ &nbsp;&nbsp;&nbsp;&nbsp;<span class="greendark">|</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <i class="icon-lock"></i>&nbsp;&nbsp;<a class="greydark nicdark_mpopup_ajax nicdark_outline" href="<?php echo $login; ?>"> <?php echo mb_strtoupper($text_login); ?> </a>
+
+   
+            <?php } ?>
+
+
+
+                        
+
+
+
+
+
+                               </small>
                             </p>
                             <div class="nicdark_space5"></div>
                         </div>
@@ -402,15 +479,18 @@
                             <ul class="nicdark_menu nicdark_margin010 nicdark_padding50">
 
                                 <li class="greydark">
-                                    <a href="<?php echo $home; ?>">HOME</a>
+
+  <a href="<?php echo $special; ?>"><?php echo mb_strtoupper( $text_special); ?></a>
+
+                                    <!-- <a href="<?php echo $home; ?>">HOME</a> -->
                                     <ul class="sub-menu">
-                                        <li class="nicdark_hotlabel"><a href="index-2.html">Home Shop</a></li>
+                                   <!--      <li class="nicdark_hotlabel"><a href="index-2.html">Home Shop</a></li>
                                         <li class="nicdark_newlabel"><a href="index-6.html">Parallax</a></li>
                                         <li><a href="index-3.html">Home Fashion</a></li>
-                                        <li><a href="index.html">Home Default</a></li>
+                                        <li><a href="index.html">Home Default</a></li> -->
                                     </ul>
                                 </li>
-                                <li class="greydark nicdark_megamenu nicdark_megamenu_origin">
+                             <!--    <li class="greydark nicdark_megamenu nicdark_megamenu_origin">
                                     <a href="bridal-gowns.html">SHOP</a>
                                     <ul class="sub-menu">
                                         <div class="grid_4 nicdark_padding0">
@@ -438,12 +518,12 @@
                                                     </div>
                                                 </div>
                                                 <div class="grid grid_6 percentage nomargin">
-                                                    <img alt="" src="catalog/view/theme/copy_default/stylesheet/image/banners/menu-img1.jpg">
+                                                    <img alt="" src="catalog/view/theme/dress_shop/image/img/banners/menu-img1.jpg">
                                                 </div>
                                             </div>
                                         </div>
                                     </ul>
-                                </li>
+                                </li> -->
                                 <li class="greydark nicdark_megamenu">
 
 <?php if ($categories) { 
@@ -461,7 +541,7 @@
         <?php if ($category['children']) { ?>
 
 
-                            <li class="mm_grid mm_grid_3">
+                            <li class="mm_grid mm_grid_2">
                           <a href=<?php echo$category['href']; ?>> <?php echo$category['name']; ?></a>
                                             <ul class="sub-menu">
 
@@ -565,12 +645,12 @@
 
 
                                 <li class="greydark nicdark_displaynone_ipadland">
-                                    <a href="designer-1.html">DESIGNER</a>
+                            <!--         <a href="designer-1.html">DESIGNER</a>
                                     <ul class="sub-menu">
                                         <li><a href="designer-1.html">Our Designers</a></li>
                                         <li class="nicdark_newlabel"><a href="single-designer.html">Stylist</a></li>
                                         <li class="nicdark_newlabel"><a href="designer-2.html">Our Staff</a></li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
                                 <li class="greydark">
                                     <a href="blog-masonry.html">BLOG</a>

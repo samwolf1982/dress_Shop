@@ -31,3 +31,4 @@ catalog/view/theme/dress_shop/image/img/parallax/fa2.jpg
         <div class="nicdark_space_block50"></div>
     </div>    </a>
 </section>
+<div class="nicdark_space20"></div>
