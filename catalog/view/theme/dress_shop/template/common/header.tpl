@@ -401,7 +401,7 @@
                                     <div class="nicdark_activity right nicdark_bg_green">
                                         <div class="nicdark_space5"></div>
                                         <p class="greydark">
-                                            <small> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="icon-globe-2"></i>&nbsp;&nbsp;<a class="greydark nicdark_mpopup_window nicdark_outline" href="#nicdark_window">LANGUAGES</a> &nbsp;&nbsp;&nbsp;&nbsp;<span class="greendark">|</span>&nbsp;&nbsp;&nbsp;&nbsp; <i class="icon-plus"></i>&nbsp;&nbsp;<a class="greydark nicdark_mpopup_ajax nicdark_outline" href="form-register.html">REGISTER</a> &nbsp;&nbsp;&nbsp;&nbsp;<span class="greendark">|</span>&nbsp;&nbsp;&nbsp;&nbsp; <i class="icon-lock"></i>&nbsp;&nbsp;<a class="greydark nicdark_mpopup_ajax nicdark_outline" href="form-login.html">LOG IN</a></small>
+                                            <small> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="icon-globe-2"></i>&nbsp;&nbsp;<a class="greydark nicdark_mpopup_window nicdark_outline" href="#nicdark_window">LANGUAGES</a> &nbsp;&nbsp;&nbsp;&nbsp;<span class="greendark">|</span>&nbsp;&nbsp;&nbsp;&nbsp; <i class="icon-plus"></i>&nbsp;&nbsp;<a class="greydark nicdark_mpopup_ajax nicdark_outline" href="catalog/view/theme/dress_shop/forms/form-register.html">REGISTER</a> &nbsp;&nbsp;&nbsp;&nbsp;<span class="greendark">|</span>&nbsp;&nbsp;&nbsp;&nbsp; <i class="icon-lock"></i>&nbsp;&nbsp;<a class="greydark nicdark_mpopup_ajax nicdark_outline" href="form-login.html">LOG IN</a></small>
                                         </p>
                                         <div class="nicdark_space5"></div>
                                     </div>
