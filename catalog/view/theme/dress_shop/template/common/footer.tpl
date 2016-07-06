@@ -157,9 +157,37 @@ Please donate via PayPal to donate@opencart.com
         jQuery(".nicdark_preloader").delay(1000).fadeOut("slow");
           $('#a1').attr("href", "#tabs-1");
              $('#a2').attr("href", "#tabs-2");
+
+
+
+ /*     $('#form-language input[name=\'code\']').click(function() {
+        //Do stuff when clicked
+        alert("TYUI");
+    })*/
+/*     
+function(e) {
+  e.preventDefault();*/
+
+/*  $('#form-language input[name=\'code\']').attr('value', $(this).attr('name'));
+
+  $('#form-language').submit();*/
+//}
+ 
+
  
 
     })
+/*
+$('.nicdark_border_greydark, .nicdark_border_greydark td, .nicdark_border_greydark th').css( "border: 0px" );*/
+
+      // Language
+  $('#form-language .language-select').on('click', function(e) {
+    e.preventDefault();
+
+    $('#form-language input[name=\'code\']').attr('value', $(this).attr('name'));
+
+    $('#form-language').submit();
+  });
 
 </script>
 

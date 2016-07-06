@@ -33,3 +33,7 @@
 2016-07-06 2:39:59 - PHP Warning:  imagejpeg(/home/sam/sites/localhost5/image/cache/catalog/demo/iphone_3-74x74.jpg): failed to open stream: Отказано в доступе in /home/sam/sites/localhost5/system/library/image.php on line 64
 2016-07-06 2:39:59 - PHP Warning:  imagejpeg(/home/sam/sites/localhost5/image/cache/catalog/demo/iphone_4-500x500.jpg): failed to open stream: Отказано в доступе in /home/sam/sites/localhost5/system/library/image.php on line 64
 2016-07-06 2:39:59 - PHP Warning:  imagejpeg(/home/sam/sites/localhost5/image/cache/catalog/demo/iphone_4-74x74.jpg): failed to open stream: Отказано в доступе in /home/sam/sites/localhost5/system/library/image.php on line 64
+2016-07-06 4:03:20 - PHP Warning:  Illegal string offset 'name' in /home/sam/sites/localhost5/catalog/view/theme/dress_shop/template/common/header.tpl on line 420
+2016-07-06 4:56:53 - PHP Notice:  Undefined variable: text_language in /home/sam/sites/localhost5/catalog/view/theme/dress_shop/template/common/header.tpl on line 404
+2016-07-06 5:08:36 - PHP Notice:  Undefined variable: text_language in /home/sam/sites/localhost5/catalog/view/theme/dress_shop/template/common/header.tpl on line 404
+2016-07-06 5:10:54 - PHP Notice:  Undefined variable: text_language in /home/sam/sites/localhost5/catalog/view/theme/dress_shop/template/common/header.tpl on line 404

@@ -34,7 +34,6 @@
 
 
 
-
     
     <!--START CSS--> 
     <link rel="stylesheet" href="catalog/view/theme/dress_shop/stylesheet/css/nicdark_style.css"> <!--style-->
@@ -97,6 +96,7 @@
         <div class="nicdark_site">
             <div class="nicdark_site_fullwidth nicdark_clearfix">
                 <div class="nicdark_overlay"></div>
+
 
 
                 <!--START LEFT SIDEBAR OPEN-->
@@ -371,613 +371,286 @@
 
 
 
+<!-- END SIDEBAR  -->
+
+<!-- StaRT NAV MENU -->
 
 
 
+                <div class="nicdark_section nicdark_navigation">
+
+                    <div class="nicdark_menu_fullwidth">
+
+                        <div class="nicdark_section nicdark_bg_gradient nicdark_displaynone_responsive">
+                            <div class="nicdark_container nicdark_clearfix">
+<!--S Info map -->
+                                <div class="grid grid_6 nicdark_bg_greydark percentage">
+                                    <div class="nicdark_focus">
+                                        <div class="nicdark_space5"></div>
+                                        <p class="white">
+                                            <small> <i class="icon-mail-alt green"></i>&nbsp;&nbsp;<a class="white" href="contact-1.html">INFO@FASHIONATELIER.COM</a> &nbsp;&nbsp;&nbsp;&nbsp;<span class="greydark">|</span>&nbsp;&nbsp;&nbsp;&nbsp; <i class="icon-location-1 green"></i>&nbsp;&nbsp;<a class="white" href="contact-1.html">NEW YORK, BOULEVARD 1ST</a></small>
+                                        </p>
+                                        <div class="nicdark_space5"></div>
+                                    </div>
+                                </div>
+                                 <!-- E Info map -->
+
+                                <div class="grid grid_6 right nicdark_bg_greydark percentage">
+
+<!--S LAN REG LOGIN -->
+                                    <div class="nicdark_activity right nicdark_bg_green">
+                                        <div class="nicdark_space5"></div>
+                                        <p class="greydark">
+                                            <small> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="icon-globe-2"></i>&nbsp;&nbsp;<a class="greydark nicdark_mpopup_window nicdark_outline" href="#nicdark_window">LANGUAGES</a> &nbsp;&nbsp;&nbsp;&nbsp;<span class="greendark">|</span>&nbsp;&nbsp;&nbsp;&nbsp; <i class="icon-plus"></i>&nbsp;&nbsp;<a class="greydark nicdark_mpopup_ajax nicdark_outline" href="form-register.html">REGISTER</a> &nbsp;&nbsp;&nbsp;&nbsp;<span class="greendark">|</span>&nbsp;&nbsp;&nbsp;&nbsp; <i class="icon-lock"></i>&nbsp;&nbsp;<a class="greydark nicdark_mpopup_ajax nicdark_outline" href="form-login.html">LOG IN</a></small>
+                                        </p>
+                                        <div class="nicdark_space5"></div>
+                                    </div>
+<!--E LAN REG LOGIN -->
+                                    <div class="nicdark_activity right nicdark_bg_greendark nicdark_oblique_right">
+                                        <div class="nicdark_space5"></div>
+                                        <p class="greydark">
+                                            <small><i class="icon-angle-right greendark"></i></small>
+                                        </p>
+                                        <div class="nicdark_space5"></div>
+                                    </div>
+
+                                </div>
+
+                                <!--info window for languages-->
+                                <?php echo $language; ?>
+
+                                        <!--end POP Lanng window-->
 
 
+                        
 
+                            </div>
+                        </div>
+                        <div class="nicdark_section nicdark_bg_grey fade-down">
+                            <div class="nicdark_container nicdark_clearfix">
 
+                                <div class="grid grid_12 percentage">
 
+                                    <div class="nicdark_space25"></div>
 
+                                    <div class="nicdark_logo">
+                                        <a class="nicdark_logo_normal" href="index.html"><img alt="" src="img/logo.png"></a>
+                                        <a class="nicdark_logo_transparent" href="index.html"><img alt="" src="img/logo-white.png"></a>
+                                    </div>
 
+                                    <a class="nicdark_bg_bluedark nicdark_btn_icon nicdark_bg_blue_hover nicdark_right_sidebar_btn_open nicdark_transition nicdark_border_white  nicdark_marginleft20 extrasmall white right"><i class="icon-basket-1 nicdark_rotate nicdark_cell nicdark_vertical_middle"></i></a>
+                                    <a class="nicdark_bg_bluedark nicdark_btn_icon nicdark_bg_blue_hover nicdark_left_sidebar_btn_open nicdark_transition nicdark_border_white  nicdark_marginleft10 extrasmall white right"><i class="icon-star nicdark_rotate nicdark_cell nicdark_vertical_middle"></i></a>
 
+                                    <nav>
+                                        <ul class="nicdark_menu nicdark_margin010 nicdark_padding50">
 
+                                            <li class="greydark">
+                                                <a href="index.html">HOME</a>
+                                                <ul class="sub-menu">
+                                                    <li class="nicdark_hotlabel">
+                                                        <a href="index-2.html">Home Shop</a>
+                                                    </li>
+                                                    <li class="nicdark_newlabel">
+                                                        <a href="index-6.html">Parallax</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="index-3.html">Home Fashion</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="index.html">Home Default</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="greydark nicdark_megamenu nicdark_megamenu_origin">
+                                                <a href="bridal-gowns.html">SHOP</a>
+                                                <ul class="sub-menu">
+                                                    <div class="grid_4 nicdark_padding0">
+                                                        <div class="nicdark_archive1 nicdark_bg_greydark">
+                                                            <div class="grid grid_6 percentage nomargin">
+                                                                <div class="nicdark_focus nicdark_border_bottom_greydark2 nicdark_bg_greydark2_hover nicdark_transition">
+                                                                    <h6 class="nicdark_margin1525"><a class="white" href="bridal-gowns.html">Shop</a></h6>
+                                                                </div>
+                                                                <div class="nicdark_focus nicdark_border_bottom_greydark2 nicdark_bg_greydark2_hover nicdark_transition">
+                                                                    <h6 class="nicdark_margin1525"><a class="white" href="single-product.html">Product</a></h6>
+                                                                </div>
+                                                                <div class="nicdark_focus nicdark_border_bottom_greydark2 nicdark_bg_greydark2_hover nicdark_transition">
+                                                                    <h6 class="nicdark_margin1525"><a class="white" href="shop-cart.html">Cart</a></h6>
+                                                                </div>
+                                                                <div class="nicdark_focus nicdark_border_bottom_greydark2 nicdark_bg_greydark2_hover nicdark_transition">
+                                                                    <h6 class="nicdark_margin1525"><a class="white" href="shop-checkout.html">Checkout</a></h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="grid grid_6 percentage nomargin">
+                                                                <img alt="" src="img/banners/menu-img1.jpg">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li class="greydark nicdark_megamenu">
+                                                <a href="components.html">COMPONENTS</a>
+                                                <ul class="sub-menu">
+                                                    <li class="mm_grid mm_grid_3">
+                                                        <a href="components.html">JQUERY COMPONENTS</a>
+                                                        <ul class="sub-menu">
+                                                            <li>
+                                                                <a href="components.html#nicdark_isotope">Isotope Filter</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="components.html#nicdark_counters">Counters Number</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="components.html#nicdark_countdown">Countdown</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="components.html#nicdark_scroll">Scroll JS</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="mm_grid mm_grid_3">
+                                                        <a href="components-archives.html">DIFFERENT ARCHIVES</a>
+                                                        <ul class="sub-menu">
+                                                            <li>
+                                                                <a href="components.html">Gallery</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="components.html#nicdark_accordions">Accordions</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="components.html#nicdark_tabs">Tab Solution</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="components.html#nicdark_toogles">Toogle</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="mm_grid mm_grid_3">
+                                                        <a href="components-widgets.html">MULTIPLIES WIDGETS</a>
+                                                        <ul class="sub-menu">
+                                                            <li>
+                                                                <a href="components.html">Info Windows</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="components.html#nicdark_alerts">Alerts</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="components.html#nicdark_testimonials">Testimonials</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="components.html#nicdark_parallax">Parallax</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="mm_grid mm_grid_3">
+                                                        <a href="components-focus.html">FOCUS SOLUTIONS</a>
+                                                        <ul class="sub-menu">
+                                                            <li>
+                                                                <a href="components.html#nicdark_services">Services</a>
+                                                            </li>
+                                                            <li class="nicdark_hotlabel">
+                                                                <a href="components.html#nicdark_bars">Progress Bars</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="components.html#nicdark_icons">Retina Icons</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="components.html#nicdark_tables">Tables</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="greydark">
+                                                <a href="#">PAGES</a>
+                                                <ul class="sub-menu">
+                                                    <li class="nicdark_hotlabel">
+                                                        <a href="services.html">Services</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="about-us.html">About Us</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="prices.html">Prices</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="faq.html">Faq</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="404.html">404 Page</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="greydark nicdark_displaynone_ipadland">
+                                                <a href="designer-1.html">DESIGNER</a>
+                                                <ul class="sub-menu">
+                                                    <li>
+                                                        <a href="designer-1.html">Our Designers</a>
+                                                    </li>
+                                                    <li class="nicdark_newlabel">
+                                                        <a href="single-designer.html">Stylist</a>
+                                                    </li>
+                                                    <li class="nicdark_newlabel">
+                                                        <a href="designer-2.html">Our Staff</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="greydark">
+                                                <a href="blog-masonry.html">BLOG</a>
+                                                <ul class="sub-menu">
+                                                    <li>
+                                                        <a href="blog-masonry.html">Masonry Layout</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="blog.html">Standard Layout</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="single-post-left-sidebar.html">Post Left Sidebar</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="single-post-right-sidebar.html">Post Right Sidebar</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="single-post-full-width.html">Post Full Width</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="greydark">
+                                                <a href="contact-1.html">CONTACTS</a>
+                                                <ul class="sub-menu">
+                                                    <li>
+                                                        <a href="contact-1.html">Contact 1</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="contact-2.html">Contact 2</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>
 
+                                    <div class="nicdark_space25"></div>
 
+                                </div>
 
+                            </div>
+                            <!--end container-->
 
+                        </div>
+                        <!--end header-->
 
-<div class="nicdark_section nicdark_navigation">
-    
-    <div class="nicdark_menu_fullwidth">
-
-        <div class="nicdark_section nicdark_bg_gradient nicdark_displaynone_responsive">
-            <div class="nicdark_container nicdark_clearfix">
-                
-                <div class="grid grid_6 nicdark_bg_greydark percentage">
-                    <div class="nicdark_focus">
-                        <div class="nicdark_space5"></div>
-                        <p class="white"><small>
-                            <i class="icon-mail-alt green"></i>&nbsp;&nbsp;<a class="white" href="contact-1.html">INFO@FASHIONATELIER.COM</a>
-                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="greydark">|</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                            <i class="icon-location-1 green"></i>&nbsp;&nbsp;<a class="white" href="contact-1.html">NEW YORK, BOULEVARD 1ST</a></small>
-                        </p>
-                        <div class="nicdark_space5"></div>
                     </div>
-                </div>
-                <div class="grid grid_6 right nicdark_bg_greydark percentage">
-                    
-                    
-                        <div class="nicdark_activity right nicdark_bg_green">
-                            <div class="nicdark_space5"></div>
-                            <p class="greydark"><small>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="icon-globe-2"></i>&nbsp;&nbsp;<a class="greydark nicdark_mpopup_window nicdark_outline" href="#nicdark_window">LANGUAGES</a>
-                                &nbsp;&nbsp;&nbsp;&nbsp;<span class="greendark">|</span>&nbsp;&nbsp;&nbsp;&nbsp;
-
-                          <i class="icon-plus"> </i>&nbsp;&nbsp;
-
-  <?php if ($logged) { ?>
-           <!--  <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
-            <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
-            <li><a href="<?php echo $transaction; ?>"><?php echo $text_transaction; ?></a></li>
-            <li><a href="<?php echo $download; ?>"><?php echo $text_download; ?></a></li>
-            <li><a href="<?php echo $logout; ?>"><?php echo $text_logout; ?></a></li> -->
-
-            <a class="greydark nicdark_mpopup_ajax nicdark_outline" href="<?php echo $logout; ?>"><?php echo  mb_strtoupper($text_logout); ?></a>
-            <?php } else { ?>
-     <a class="greydark nicdark_mpopup_ajax nicdark_outline" href="<?php echo $register; ?>"><?php echo mb_strtoupper( $text_register); ?></a>
- &nbsp;&nbsp;&nbsp;&nbsp;<span class="greendark">|</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                                <i class="icon-lock"></i>&nbsp;&nbsp;<a class="greydark nicdark_mpopup_ajax nicdark_outline" href="<?php echo $login; ?>"> <?php echo mb_strtoupper($text_login); ?> </a>
-
-   
-            <?php } ?>
-
-
-
-                        
-
-
-
-
-
-                               </small>
-                            </p>
-                            <div class="nicdark_space5"></div>
-                        </div>
-                        
-                        <div class="nicdark_activity right nicdark_bg_greendark nicdark_oblique_right">
-                            <div class="nicdark_space5"></div>
-                            <p class="greydark">
-                                <small><i class="icon-angle-right greendark"></i></small>
-                            </p>
-                            <div class="nicdark_space5"></div>
-                        </div>
-                        
-                    
-                </div>
-
-                <!--info window for languages-->
-                <div id="nicdark_window" class="nicdark_bg_greydark zoom-anim-dialog mfp-hide">
-                    
-                    <div class="nicdark_textevidence nicdark_bg_violetdark ">
-                        <div class="nicdark_margin20">
-                            <h4 class="white">LANGUAGES</h4>
-                        </div>
-                    </div>
-
-                    <div class="nicdark_padding20 nicdark_display_inlineblock nicdark_width_percentage100 nicdark_sizing">
-                        
-                        <ul class="nicdark_list border">
-                        
-                            <li class="nicdark_border_greydark">
-                                <p><a class="white" href="index.html">ENGLISH</a><a href="index.html" class="nicdark_btn right nicdark_opacity"><i class="white icon-angle-right"></i></a></p>
-                                <div class="nicdark_space15"></div>
-                            </li>
-
-                            <li class="nicdark_border_greydark">
-                                <div class="nicdark_space15"></div>
-                                <p><a class="white" href="index.html">RUSSIAN</a><a href="index.html" class="nicdark_btn right nicdark_opacity"><i class="white icon-angle-right"></i></a></p>   
-                                <div class="nicdark_space15"></div>
-                            </li>
-                                
-                            <li class="nicdark_border_greydark">
-                                <div class="nicdark_space15"></div>
-                                <p><a class="white" href="index.html">ARABIC</a><a href="index.html" class="nicdark_btn right nicdark_opacity"><i class="white icon-angle-right"></i></a></p>   
-                                <div class="nicdark_space15"></div>
-                            </li>
-
-                            <li class="nicdark_border_greydark">
-                                <div class="nicdark_space15"></div>
-                                <p><a class="white" href="index.html">ITALIAN</a><a href="index.html" class="nicdark_btn right nicdark_opacity"><i class="white icon-angle-right"></i></a></p>    
-                            </li>
-                                
-                        </ul>
-
-                    </div>
-                </div>
-                <!--end window-->
-
-            </div>
-        </div>                    
-        <div class="nicdark_section nicdark_bg_grey fade-down">
-            <div class="nicdark_container nicdark_clearfix">
-
-                <div class="grid grid_12 percentage">
-                        
-                        <div class="nicdark_space25"></div>
-
-                        <div class="nicdark_logo">
-                            <a class="nicdark_logo_normal" href=""><img alt="" src="catalog/view/theme/dress_shop/image/img/logo.png"></a>
-                            <a class="nicdark_logo_transparent" href="index.html"><img alt="" src="catalog/view/theme/dress_shop/image/img/logo-white.png"></a>
-                        </div>
-
-                        <a class="nicdark_bg_bluedark nicdark_btn_icon nicdark_bg_blue_hover nicdark_right_sidebar_btn_open nicdark_transition nicdark_border_white  nicdark_marginleft20 extrasmall white right"><i class="icon-basket-1 nicdark_rotate nicdark_cell nicdark_vertical_middle"></i></a>
-                        <a class="nicdark_bg_bluedark nicdark_btn_icon nicdark_bg_blue_hover nicdark_left_sidebar_btn_open nicdark_transition nicdark_border_white  nicdark_marginleft10 extrasmall white right"><i class="icon-star nicdark_rotate nicdark_cell nicdark_vertical_middle"></i></a>
-                     
-
-
-
-
-
-
-
-
-
-
-                     <nav>
-                            
-
-                            <ul class="nicdark_menu nicdark_margin010 nicdark_padding50">
-
-                                <li class="greydark">
-
-  <a href="<?php echo $special; ?>"><?php echo mb_strtoupper( $text_special); ?></a>
-
-                                    <!-- <a href="<?php echo $home; ?>">HOME</a> -->
-                                    <ul class="sub-menu">
-                                   <!--      <li class="nicdark_hotlabel"><a href="index-2.html">Home Shop</a></li>
-                                        <li class="nicdark_newlabel"><a href="index-6.html">Parallax</a></li>
-                                        <li><a href="index-3.html">Home Fashion</a></li>
-                                        <li><a href="index.html">Home Default</a></li> -->
-                                    </ul>
-                                </li>
-                             <!--    <li class="greydark nicdark_megamenu nicdark_megamenu_origin">
-                                    <a href="bridal-gowns.html">SHOP</a>
-                                    <ul class="sub-menu">
-                                        <div class="grid_4 nicdark_padding0">
-                                            <div class="nicdark_archive1 nicdark_bg_greydark">
-                                                <div class="grid grid_6 percentage nomargin">
-                                                    <div class="nicdark_focus nicdark_border_bottom_greydark2 nicdark_bg_greydark2_hover nicdark_transition">
-                                                        <h6 class="nicdark_margin1525">
-                                                            <a class="white" href="bridal-gowns.html">Shop</a>
-                                                        </h6>
-                                                    </div>
-                                                    <div class="nicdark_focus nicdark_border_bottom_greydark2 nicdark_bg_greydark2_hover nicdark_transition">
-                                                        <h6 class="nicdark_margin1525">
-                                                            <a class="white" href="single-product.html">Product</a>
-                                                        </h6>
-                                                    </div>
-                                                    <div class="nicdark_focus nicdark_border_bottom_greydark2 nicdark_bg_greydark2_hover nicdark_transition">
-                                                        <h6 class="nicdark_margin1525">
-                                                            <a class="white" href="shop-cart.html">Cart</a>
-                                                        </h6>
-                                                    </div>
-                                                    <div class="nicdark_focus nicdark_border_bottom_greydark2 nicdark_bg_greydark2_hover nicdark_transition">
-                                                        <h6 class="nicdark_margin1525">
-                                                            <a class="white" href="shop-checkout.html">Checkout</a>
-                                                        </h6>
-                                                    </div>
-                                                </div>
-                                                <div class="grid grid_6 percentage nomargin">
-                                                    <img alt="" src="catalog/view/theme/dress_shop/image/img/banners/menu-img1.jpg">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </ul>
-                                </li> -->
-                                <li class="greydark nicdark_megamenu">
-
-<?php if ($categories) { 
-//print_r(var_dump($categories)); die();
-?>
-
-
-
-                                    <a href="components.html"><?php echo mb_strtoupper( $text_category); ?></a>
-
-
-                                    <ul class="sub-menu">
-
-  <?php foreach ($categories as $category) { ?>
-        <?php if ($category['children']) { ?>
-
-
-                            <li class="mm_grid mm_grid_2">
-                          <a href=<?php echo$category['href']; ?>> <?php echo$category['name']; ?></a>
-                                            <ul class="sub-menu">
-
-
-     <?php foreach (array_chunk($category['children'], ceil(count($category['children']) / $category['column'])) as $children) { ?>
-  
-                <?php foreach ($children as $child) { ?>
-                <li><a href="<?php echo $child['href']; ?>"><?php echo $child['name']; ?></a></li>
-                <?php } ?>
-
-              <?php } ?>
-
-
-
-
-
-                                          <!--       <li><a href="components.html#nicdark_isotope">Isotope Filter</a>
-
-
-                                                </li>
-
-
-
-
-                                                <li><a href="components.html#nicdark_counters">Counters Number</a></li>
-                                                <li><a href="components.html#nicdark_countdown">Countdown</a></li>
-                                                <li><a href="components.html#nicdark_scroll">Scroll JS</a></li> -->
-                                            </ul>
-                                        </li>
-
-         
-
-          <?php } ?>
-          <?php } ?>
-
-
-                                 <!--        <li class="mm_grid mm_grid_3">
-                                            <a href="components-archives.html">DIFFERENT ARCHIVES</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="components.html">Gallery</a></li>
-                                                <li><a href="components.html#nicdark_accordions">Accordions</a></li>
-                                                <li><a href="components.html#nicdark_tabs">Tab Solution</a></li>
-                                                <li><a href="components.html#nicdark_toogles">Toogle</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="mm_grid mm_grid_3">
-                                            <a href="components-widgets.html">MULTIPLIES WIDGETS</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="components.html">Info Windows</a></li>
-                                                <li><a href="components.html#nicdark_alerts">Alerts</a></li>
-                                                <li><a href="components.html#nicdark_testimonials">Testimonials</a></li>
-                                                <li><a href="components.html#nicdark_parallax">Parallax</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="mm_grid mm_grid_3">
-                                            <a href="components-focus.html">FOCUS SOLUTIONS</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="components.html#nicdark_services">Services</a></li>
-                                                <li class="nicdark_hotlabel"><a href="components.html#nicdark_bars">Progress Bars</a></li>
-                                                <li><a href="components.html#nicdark_icons">Retina Icons</a></li>
-                                                <li><a href="components.html#nicdark_tables">Tables</a></li>
-                                            </ul>
-                                        </li> -->
-
-
-
-                                    </ul>
-                                    <?php } ?>
-                               
-                                </li>
-
-
-
-
-
-                                <li class="greydark">
-
-
-
-    
-
-
-                                     <?php if ($informations) { ?>
-
-                                    <a href="#"><?php echo mb_strtoupper( $text_information); ?></a>
-                                    <ul class="sub-menu">
-                                             <?php foreach ($informations as $information) { ?>
-          <li class="nicdark_hotlabel"><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a></li>
-          <?php } ?>
-                                    </ul>
-                                      <?php } ?>
-                                </li>
-
-
-
-
-
-
-
-
-
-
-                                <li class="greydark nicdark_displaynone_ipadland">
-                            <!--         <a href="designer-1.html">DESIGNER</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="designer-1.html">Our Designers</a></li>
-                                        <li class="nicdark_newlabel"><a href="single-designer.html">Stylist</a></li>
-                                        <li class="nicdark_newlabel"><a href="designer-2.html">Our Staff</a></li>
-                                    </ul> -->
-                                </li>
-                                <li class="greydark">
-                                    <a href="blog-masonry.html">BLOG</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog-masonry.html">Masonry Layout</a></li>
-                                        <li><a href="blog.html">Standard Layout</a></li>
-                                        <li><a href="single-post-left-sidebar.html">Post Left Sidebar</a></li>
-                                        <li><a href="single-post-right-sidebar.html">Post Right Sidebar</a></li>
-                                        <li><a href="single-post-full-width.html">Post Full Width</a></li>
-                                    </ul>
-                                </li>
-
-
-
-                                <li class="greydark">
-                                    <a href="#"><?php echo mb_strtoupper('контакты'); ?></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
-                                        <li><a href="<?php echo $return; ?>"><?php echo $text_return; ?></a></li>
-                                    </ul>
-                                </li>
-
-
-
-
-
-                            </ul>
-
-
-
-
-
-
-
-
-                        </nav>
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 
-
-
-                        <nav>
-                            <ul class="nicdark_menu nicdark_margin010 nicdark_padding50">
-
-                                <li class="greydark">
-                                    <a href="index.html">HOME</a>
-                                    <ul class="sub-menu">
-                                        <li class="nicdark_hotlabel"><a href="index-2.html">Home Shop</a></li>
-                                        <li class="nicdark_newlabel"><a href="index-6.html">Parallax</a></li>
-                                        <li><a href="index-3.html">Home Fashion</a></li>
-                                        <li><a href="index.html">Home Default</a></li>
-                                    </ul>
-                                </li>
-                                <li class="greydark nicdark_megamenu nicdark_megamenu_origin">
-                                    <a href="bridal-gowns.html">SHOP</a>
-                                    <ul class="sub-menu">
-                                        <div class="grid_4 nicdark_padding0">
-                                            <div class="nicdark_archive1 nicdark_bg_greydark">
-                                                <div class="grid grid_6 percentage nomargin">
-                                                    <div class="nicdark_focus nicdark_border_bottom_greydark2 nicdark_bg_greydark2_hover nicdark_transition">
-                                                        <h6 class="nicdark_margin1525">
-                                                            <a class="white" href="bridal-gowns.html">Shop</a>
-                                                        </h6>
-                                                    </div>
-                                                    <div class="nicdark_focus nicdark_border_bottom_greydark2 nicdark_bg_greydark2_hover nicdark_transition">
-                                                        <h6 class="nicdark_margin1525">
-                                                            <a class="white" href="single-product.html">Product</a>
-                                                        </h6>
-                                                    </div>
-                                                    <div class="nicdark_focus nicdark_border_bottom_greydark2 nicdark_bg_greydark2_hover nicdark_transition">
-                                                        <h6 class="nicdark_margin1525">
-                                                            <a class="white" href="shop-cart.html">Cart</a>
-                                                        </h6>
-                                                    </div>
-                                                    <div class="nicdark_focus nicdark_border_bottom_greydark2 nicdark_bg_greydark2_hover nicdark_transition">
-                                                        <h6 class="nicdark_margin1525">
-                                                            <a class="white" href="shop-checkout.html">Checkout</a>
-                                                        </h6>
-                                                    </div>
-                                                </div>
-                                                <div class="grid grid_6 percentage nomargin">
-                                                    <img alt="" src="catalog/view/theme/dress_shop/image/img/banners/menu-img1.jpg">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </ul>
-                                </li>
-                                <li class="greydark nicdark_megamenu">
-                                    <a href="components.html">COMPONENTS</a>
-                                    <ul class="sub-menu">
-                                        <li class="mm_grid mm_grid_3">
-                                            <a href="components.html">JQUERY COMPONENTS</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="components.html#nicdark_isotope">Isotope Filter</a></li>
-                                                <li><a href="components.html#nicdark_counters">Counters Number</a></li>
-                                                <li><a href="components.html#nicdark_countdown">Countdown</a></li>
-                                                <li><a href="components.html#nicdark_scroll">Scroll JS</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="mm_grid mm_grid_3">
-                                            <a href="components-archives.html">DIFFERENT ARCHIVES</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="components.html">Gallery</a></li>
-                                                <li><a href="components.html#nicdark_accordions">Accordions</a></li>
-                                                <li><a href="components.html#nicdark_tabs">Tab Solution</a></li>
-                                                <li><a href="components.html#nicdark_toogles">Toogle</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="mm_grid mm_grid_3">
-                                            <a href="components-widgets.html">MULTIPLIES WIDGETS</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="components.html">Info Windows</a></li>
-                                                <li><a href="components.html#nicdark_alerts">Alerts</a></li>
-                                                <li><a href="components.html#nicdark_testimonials">Testimonials</a></li>
-                                                <li><a href="components.html#nicdark_parallax">Parallax</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="mm_grid mm_grid_3">
-                                            <a href="components-focus.html">FOCUS SOLUTIONS</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="components.html#nicdark_services">Services</a></li>
-                                                <li class="nicdark_hotlabel"><a href="components.html#nicdark_bars">Progress Bars</a></li>
-                                                <li><a href="components.html#nicdark_icons">Retina Icons</a></li>
-                                                <li><a href="components.html#nicdark_tables">Tables</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="greydark">
-                                    <a href="#">PAGES</a>
-                                    <ul class="sub-menu">
-                                        <li class="nicdark_hotlabel"><a href="services.html">Services</a></li>
-                                        <li><a href="about-us.html">About Us</a></li>
-                                        <li><a href="prices.html">Prices</a></li>
-                                        <li><a href="faq.html">Faq</a></li>
-                                        <li><a href="404.html">404 Page</a></li>
-                                    </ul>
-                                </li>
-                                <li class="greydark nicdark_displaynone_ipadland">
-                                    <a href="designer-1.html">DESIGNER</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="designer-1.html">Our Designers</a></li>
-                                        <li class="nicdark_newlabel"><a href="single-designer.html">Stylist</a></li>
-                                        <li class="nicdark_newlabel"><a href="designer-2.html">Our Staff</a></li>
-                                    </ul>
-                                </li>
-                                <li class="greydark">
-                                    <a href="blog-masonry.html">BLOG</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog-masonry.html">Masonry Layout</a></li>
-                                        <li><a href="blog.html">Standard Layout</a></li>
-                                        <li><a href="single-post-left-sidebar.html">Post Left Sidebar</a></li>
-                                        <li><a href="single-post-right-sidebar.html">Post Right Sidebar</a></li>
-                                        <li><a href="single-post-full-width.html">Post Full Width</a></li>
-                                    </ul>
-                                </li>
-                                <li class="greydark">
-                                    <a href="contact-1.html">CONTACTS</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="contact-1.html">Contact 1</a></li>
-                                        <li><a href="contact-2.html">Contact 2</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
-  -->   
-                        <div class="nicdark_space25"></div>
 
                 </div>
+            
+            
 
-            </div>
-            <!--end container-->
 
-        </div>
-        <!--end header-->
 
-    </div>
-
-</div>
-<!--start-->
-
-<!-- <section id="nicdark_parallax_title" class="nicdark_section nicdark_imgparallax" style="background:url(catalog/view/theme/dress_shop/image/img/parallax/fa2.jpg) 50% 0 fixed; background-size:cover;">
-
-    <div class="nicdark_filter greydark center">
-        <div class="nicdark_space_block100"></div>
-        <div class="nicdark_space_block100"></div>
-        <div class="nicdark_btn nicdark_border_white medium white">
-            <div class="nicdark_space_block10"></div>
-            <h1 class=" white">OUR NEWS</h1>
-            <div class="nicdark_space_block20"></div>
-            <div class="nicdark_divider small"><span class="nicdark_bg_white"></span></div>
-            <div class="nicdark_space_block20"></div>
-            <h4 class=" white">STAY INFORMED</h4>
-            <div class="nicdark_space_block10"></div>   
-        </div>
-        <div class="nicdark_space_block40"></div>
-        <div class="nicdark_space_block50"></div>
-    </div>    
-</section> -->
-<!--end section-->
+<!-- END  NAV MENU -->
 
 
 
 
 
 
-        <!--   OLDTHEME   -->
 
-<!-- <header>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <div id="logo">
-          <?php if ($logo) { ?>
-          <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
-          <?php } else { ?>
-          <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
-          <?php } ?>
-        </div>
-      </div>
-      <div class="col-sm-5"><?php echo $search; ?>
-      </div>
-      <div class="col-sm-3"><?php echo $cart; ?></div>
-    </div>
-  </div>
-</header>
- -->
-
-
-
-
-<!-- <?php if ($categories) { ?>
-<div class="container">
-  <nav id="menu" class="navbar">
-    <div class="navbar-header"><span id="category" class="visible-xs"><?php echo $text_category; ?></span>
-      <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
-    </div>
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
-      <ul class="nav navbar-nav">
-        <?php foreach ($categories as $category) { ?>
-        <?php if ($category['children']) { ?>
-        <li class="dropdown"><a href="<?php echo $category['href']; ?>" class="dropdown-toggle" data-toggle="dropdown"><?php echo $category['name']; ?></a>
-          <div class="dropdown-menu">
-            <div class="dropdown-inner">
-              <?php foreach (array_chunk($category['children'], ceil(count($category['children']) / $category['column'])) as $children) { ?>
-              <ul class="list-unstyled">
-                <?php foreach ($children as $child) { ?>
-                <li><a href="<?php echo $child['href']; ?>"><?php echo $child['name']; ?></a></li>
-                <?php } ?>
-              </ul>
-              <?php } ?>
-            </div>
-            <a href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>
-        </li>
-        <?php } else { ?>
-        <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
-        <?php } ?>
-        <?php } ?>
-      </ul>
-    </div>
-  </nav>
-</div>
-<?php } ?> -->
