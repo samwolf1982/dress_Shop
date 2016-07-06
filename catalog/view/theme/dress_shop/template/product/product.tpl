@@ -10,7 +10,54 @@
 
 <div  class="container">
 
-  
+
+
+
+
+
+
+
+
+
+  <ul class="breadcrumb">
+
+    <?php 
+        $idf=false;
+    foreach ($breadcrumbs as $breadcrumb) { ?>
+       <?php if($idf==true) {?>     <i class="icon-angle-right grey"></i> <?php  } ?>
+
+            <div class="nicdark_margin05">
+               <a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a>
+            </div>
+
+    <?php      $idf=true;  } ?>
+  </ul>
+
+<div class="nicdark_space20"></div>
+   
+ <ul class="breadcrumb">
+    <?php foreach ($breadcrumbs as $breadcrumb) { ?>
+    <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
+    <?php } ?>
+  </ul>
+
+
+
+
+
+
+ <!--  end container -->
+  </div>
+
+
+
+<?php echo $footer; die();?>
+
+
+
+
+
+
         <!--     <div class="nicdark_margin05 nicdark_marginleft0">
                 <a class=" nicdark_paddingleft0 nicdark_btn nicdark_border_white small grey">Products</a>
             </div>
@@ -28,7 +75,7 @@
 <!--  <div class="grid grid_6"> -->
 
     
-  <ul class="breadcrumb">
+<!--   <ul class="breadcrumb">
 
     <?php 
         $idf=false;
@@ -40,7 +87,7 @@
             </div>
 
     <?php      $idf=true;  } ?>
-  </ul>
+  </ul> -->
      
  <!-- </div> -->
 
@@ -416,5 +463,3 @@
 
 
 
-
-<?php echo $footer; ?>

@@ -104,11 +104,11 @@ Please donate via PayPal to donate@opencart.com
 
                   
 
-                                </div>
+</div>
 <!--end section-->      
 
-  </div>
-    </div>
+         </div>
+      </div>
 
     <!--main-->
     <script src="catalog/view/theme/dress_shop/js/main/jquery.min.js"></script> <!--Jquery-->

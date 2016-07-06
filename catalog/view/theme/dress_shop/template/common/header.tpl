@@ -86,249 +86,301 @@
 <?php echo $analytic; ?>
 <?php } ?>
 </head>
-<body id="start_nicdark_framework">
+    <body id="start_nicdark_framework">
 
-<!--start preloader-->
-<div class="nicdark_preloader">
-    <i class="icon-heart-filled blue"></i>
-</div>
-<!--end preloader-->    
-
-<div class="nicdark_site">
-    <div class="nicdark_site_fullwidth nicdark_clearfix"><div class="nicdark_overlay"></div>
-
- 
-
-
-<!--START LEFT SIDEBAR OPEN-->
-<div class="nicdark_left_sidebar nicdark_bg_greydark nicdark_nicescrool nicdark_dark_widgets">
-
-    <a class="nicdark_left_sidebar_btn_close nicdark_btn_icon small white nicdark_absolute_right10">
-        <i class="icon-cancel"></i>
-    </a>
-
-    <!--start-->
-    <div class="nicdark_margin020">
-        <div class="nicdark_space20"></div>
-        <h4 class="white">AMAZING COMPONENTS</h4>
-        <div class="nicdark_space20"></div>
-        <div class="nicdark_divider left small"><span class="nicdark_bg_white"></span></div>
-    </div>
-    
-    <div class="nicdark_textevidence">
-        <div class="nicdark_margin20">
-            <ul class="nicdark_list">
-                <li>
-                    <a href="components.html" class="nicdark_btn nicdark_margin150 white nicdark_margintop0"><i class="icon-html5"></i>&nbsp;&nbsp;&nbsp;Basic Components</a>
-                    <a href="components.html" class="white nicdark_btn nicdark_bg_greendark  nicdark_demo_components nicdark_margintop0">NEW</a>
-                </li>
-                <li>
-                    <a href="components-archives.html" class="nicdark_btn nicdark_margin150 white"><i class="icon-th-large"></i>&nbsp;&nbsp;&nbsp;Different Archives</a>
-                    <a href="components-archives.html" class="white nicdark_btn nicdark_bg_greendark  nicdark_demo_components">NEW</a>
-                </li>
-                <li>
-                    <a href="components-widgets.html" class="nicdark_btn nicdark_margin150 white"><i class="icon-columns"></i>&nbsp;&nbsp;&nbsp;Multiplies Widgets</a>
-                    <a href="components-widgets.html" class="white nicdark_btn nicdark_bg_greendark  nicdark_demo_components">NEW</a>
-                </li>
-                <li>
-                    <a href="components-focus.html" class="nicdark_btn nicdark_margin150 white"><i class="icon-paragraph"></i>&nbsp;&nbsp;&nbsp;Focus Solutions</a>
-                    <a href="components-focus.html" class="white nicdark_btn nicdark_bg_reddark nicdark_demo_components">HOT</a>
-                </li>
-                <li>
-                    <a href="#" class="nicdark_btn nicdark_margin150 white"><i class="icon-mail-2"></i>&nbsp;&nbsp;&nbsp;Form Possibilities</a>
-                    <a href="#" class="white nicdark_btn nicdark_bg_reddark nicdark_demo_components">HOT</a>
-                </li>
-            </ul>
+        <!--start preloader-->
+        <div class="nicdark_preloader">
+            <i class="icon-heart-filled blue"></i>
         </div>
-    </div>
-    <!--end-->
+        <!--end preloader-->
 
-    <!--start-->
-    <div class="nicdark_margin020">
-        <div class="nicdark_space20"></div>
-        <h4 class="white">SOME FEATURES</h4>
-        <div class="nicdark_space20"></div>
-        <div class="nicdark_divider left small"><span class="nicdark_bg_white"></span></div>
-    </div>
-    
-    <div class="nicdark_textevidence">
-        <div class="nicdark_margin20">
-            <ul class="nicdark_list">
-                <li style="padding: 0px 0px 20px 0px;">
-                    <img alt="" style="width:60px;float: left;margin-right: 20px;" src="catalog/view/theme/dress_shop/image/img/demo/boxed_wide.jpg">
-                    <p class="white"><strong>BOXED/WIDE VERSION</strong><br>One class for switch your site from wide to boxed</p>
-                </li>
-                <li style="padding: 0px 0px 20px 0px;">
-                    <img alt="" style="width:60px;float: left;margin-right: 20px;" src="catalog/view/theme/dress_shop/image/img/demo/mega_menu.jpg">
-                    <p class="white"><strong>MEGA MENU</strong><br>Create your mega menu easly in very simple way</p>
-                </li>
-                <li style="padding: 0px 0px 20px 0px;">
-                    <img alt="" style="width:60px;float: left;margin-right: 20px;" src="catalog/view/theme/dress_shop/image/img/demo/rev_slider.jpg">
-                    <p class="white"><strong>REVOLUTION SLIDER</strong><br>Create your amazin slides, Save 14 $</p>
-                </li>
-                <li style="padding: 0px 0px 20px 0px;">
-                    <img alt="" style="width:60px;float: left;margin-right: 20px;" src="catalog/view/theme/dress_shop/image/img/demo/custom_pages.jpg">
-                    <p class="white"><strong>CUSTOM PAGES</strong><br>A lot of pages thought for your shop !</p>
-                </li>
-                <li style="padding: 0px 0px 20px 0px;">
-                    <img alt="" style="width:60px;float: left;margin-right: 20px;" src="catalog/view/theme/dress_shop/image/img/demo/framework.jpg">
-                    <p class="white"><strong>NICDARK FRAMEWORK</strong><br>Speed, Clear, Optimized code and easy to use</p>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <!--endd-->
+        <div class="nicdark_site">
+            <div class="nicdark_site_fullwidth nicdark_clearfix">
+                <div class="nicdark_overlay"></div>
 
 
-</div>
-<!--END RIGHT SIDEBAR OPEN-->
+                <!--START LEFT SIDEBAR OPEN-->
+                <div class="nicdark_left_sidebar nicdark_bg_greydark nicdark_nicescrool nicdark_dark_widgets">
 
+                    <a class="nicdark_left_sidebar_btn_close nicdark_btn_icon small white nicdark_absolute_right10"> <i class="icon-cancel"></i> </a>
 
-<!--START SIDEBAR-->
-<div class="nicdark_right_sidebar nicdark_bg_greydark nicdark_nicescrool">
-
-    <a class="nicdark_right_sidebar_btn_close nicdark_btn_icon small white nicdark_absolute_right10"><i class="icon-cancel"></i></a>
-    
-    <!--start CART-->
-    <div class="nicdark_margin020">
-        <div class="nicdark_space20"></div>
-        <h4 class="white">YOUR CART</h4>
-        <div class="nicdark_space20"></div>
-        <div class="nicdark_divider left small"><span class="nicdark_bg_white"></span></div>
-    </div>
-    <div class="nicdark_textevidence">
-        <div class="nicdark_margin20">
-            <ul class="nicdark_list nicdark_relative">
-                <li>
-                    <a href="single-product.html"><img alt=""  class="nicdark_absolute nicdark_opacity nicdark_width60" src="catalog/view/theme/dress_shop/image/img/shop/products/img1.jpg"></a>
-                    <div class="nicdark_activity nicdark_marginleft80">
-                        <h5 class="grey subtitle">AURORA DRESS</h5>                        
-                        <div class="nicdark_space10"></div>
-                        <p>1 x $ 1000,00</p>
+                    <!--start-->
+                    <div class="nicdark_margin020">
+                        <div class="nicdark_space20"></div>
+                        <h4 class="white">AMAZING COMPONENTS</h4>
+                        <div class="nicdark_space20"></div>
+                        <div class="nicdark_divider left small">
+                            <span class="nicdark_bg_white"></span>
+                        </div>
                     </div>
-                    <div class="nicdark_space50"></div>
-                </li>
-                <li>
-                    <a href="single-product.html"><img alt=""  class="nicdark_absolute nicdark_opacity nicdark_width60" src="catalog/view/theme/dress_shop/image/img/shop/products/img2.jpg"></a>
-                    <div class="nicdark_activity nicdark_marginleft80">
-                        <h5 class="grey subtitle">GAYA DRESS</h5>                        
-                        <div class="nicdark_space10"></div>
-                        <p>1 x $ 1300,00</p>
+
+                    <div class="nicdark_textevidence">
+                        <div class="nicdark_margin20">
+                            <ul class="nicdark_list">
+                                <li>
+                                    <a href="components.html" class="nicdark_btn nicdark_margin150 white nicdark_margintop0"><i class="icon-html5"></i>&nbsp;&nbsp;&nbsp;Basic Components</a>
+                                    <a href="components.html" class="white nicdark_btn nicdark_bg_greendark  nicdark_demo_components nicdark_margintop0">NEW</a>
+                                </li>
+                                <li>
+                                    <a href="components-archives.html" class="nicdark_btn nicdark_margin150 white"><i class="icon-th-large"></i>&nbsp;&nbsp;&nbsp;Different Archives</a>
+                                    <a href="components-archives.html" class="white nicdark_btn nicdark_bg_greendark  nicdark_demo_components">NEW</a>
+                                </li>
+                                <li>
+                                    <a href="components-widgets.html" class="nicdark_btn nicdark_margin150 white"><i class="icon-columns"></i>&nbsp;&nbsp;&nbsp;Multiplies Widgets</a>
+                                    <a href="components-widgets.html" class="white nicdark_btn nicdark_bg_greendark  nicdark_demo_components">NEW</a>
+                                </li>
+                                <li>
+                                    <a href="components-focus.html" class="nicdark_btn nicdark_margin150 white"><i class="icon-paragraph"></i>&nbsp;&nbsp;&nbsp;Focus Solutions</a>
+                                    <a href="components-focus.html" class="white nicdark_btn nicdark_bg_reddark nicdark_demo_components">HOT</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nicdark_btn nicdark_margin150 white"><i class="icon-mail-2"></i>&nbsp;&nbsp;&nbsp;Form Possibilities</a>
+                                    <a href="#" class="white nicdark_btn nicdark_bg_reddark nicdark_demo_components">HOT</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="nicdark_space30"></div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="nicdark_margin020">
-        <h5 class="grey">SUBTOTAL: <span class="white subtitle">$ 2300,00</span></h5>
-        <div class="nicdark_space20"></div>
-        <div class="nicdark_focus">
-            <a href="shop-cart.html" class="nicdark_btn nicdark_bg_greendark title small white">VIEW CART</a>
-        </div>
-    </div>
-    <!--end CART-->
+                    <!--end-->
 
-    <!--start FILTER-->
-    <div class="nicdark_margin020">
-        <div class="nicdark_space60"></div>
-        <h4 class="white">FILTER PRICE</h4>
-        <div class="nicdark_space20"></div>
-        <div class="nicdark_divider left small"><span class="nicdark_bg_white"></span></div>
-    </div>
-    <div class="nicdark_margin020 nicdark_block">
-        <div class="nicdark_space20"></div>
-        <div class="nicdark_radius nicdark_bg_greydark2 nicdark_slider_range"></div>
-        <div class="nicdark_space20"></div>
-    </div>
-    <div class="nicdark_margin020">
-        <input class="nicdark_bg_greydark white subtitle small nicdark_padding0 nicdark_slider_amount" type="text">
-        <div class="nicdark_space20"></div>
-        <a href="shop.html" class="nicdark_btn nicdark_bg_yellowdark title small white">FILTER</a>
-    </div>
-    <!--END FILTER-->
-
-    <!--start PRODUCTS-->
-    <div class="nicdark_margin020">
-        <div class="nicdark_space60"></div>
-        <h4 class="white">BEST REVIEWED</h4>
-        <div class="nicdark_space20"></div>
-        <div class="nicdark_divider left small"><span class="nicdark_bg_white"></span></div>
-    </div>
-    <div class="nicdark_textevidence">
-        <div class="nicdark_margin20">
-            <ul class="nicdark_list nicdark_relative">
-                <li>
-                    <a href="single-product.html"><img alt=""  class="nicdark_absolute nicdark_opacity nicdark_width60" src="catalog/view/theme/dress_shop/image/img/shop/products/img1.jpg"></a>
-                    <div class="nicdark_activity nicdark_marginleft80">
-                        <h5 class="grey subtitle">AURORA DRESS</h5>                        
-                        <div class="nicdark_space10"></div>
-                        <p><i class="icon-star yellow"></i><i class="icon-star yellow"></i><i class="icon-star yellow"></i><i class="icon-star yellow"></i><i class="icon-star-half-alt yellow"></i></p>
+                    <!--start-->
+                    <div class="nicdark_margin020">
+                        <div class="nicdark_space20"></div>
+                        <h4 class="white">SOME FEATURES</h4>
+                        <div class="nicdark_space20"></div>
+                        <div class="nicdark_divider left small">
+                            <span class="nicdark_bg_white"></span>
+                        </div>
                     </div>
-                    <div class="nicdark_space50"></div>
-                </li>
-                <li>
-                    <a href="single-product.html"><img alt=""  class="nicdark_absolute nicdark_opacity nicdark_width60" src="catalog/view/theme/dress_shop/image/img/shop/products/img2.jpg"></a>
-                    <div class="nicdark_activity nicdark_marginleft80">
-                        <h5 class="grey subtitle">GAYA DRESS</h5>                        
-                        <div class="nicdark_space10"></div>
-                        <p><i class="icon-star yellow"></i><i class="icon-star yellow"></i><i class="icon-star yellow"></i><i class="icon-star yellow"></i><i class="icon-star-half-alt yellow"></i></p>
+
+                    <div class="nicdark_textevidence">
+                        <div class="nicdark_margin20">
+                            <ul class="nicdark_list">
+                                <li style="padding: 0px 0px 20px 0px;">
+                                    <img alt="" style="width:60px;float: left;margin-right: 20px;" src="img/demo/boxed_wide.jpg">
+                                    <p class="white">
+                                        <strong>BOXED/WIDE VERSION</strong>
+                                        <br>
+                                        One class for switch your site from wide to boxed
+                                    </p>
+                                </li>
+                                <li style="padding: 0px 0px 20px 0px;">
+                                    <img alt="" style="width:60px;float: left;margin-right: 20px;" src="img/demo/mega_menu.jpg">
+                                    <p class="white">
+                                        <strong>MEGA MENU</strong>
+                                        <br>
+                                        Create your mega menu easly in very simple way
+                                    </p>
+                                </li>
+                                <li style="padding: 0px 0px 20px 0px;">
+                                    <img alt="" style="width:60px;float: left;margin-right: 20px;" src="img/demo/rev_slider.jpg">
+                                    <p class="white">
+                                        <strong>REVOLUTION SLIDER</strong>
+                                        <br>
+                                        Create your amazin slides, Save 14 $
+                                    </p>
+                                </li>
+                                <li style="padding: 0px 0px 20px 0px;">
+                                    <img alt="" style="width:60px;float: left;margin-right: 20px;" src="img/demo/custom_pages.jpg">
+                                    <p class="white">
+                                        <strong>CUSTOM PAGES</strong>
+                                        <br>
+                                        A lot of pages thought for your shop !
+                                    </p>
+                                </li>
+                                <li style="padding: 0px 0px 20px 0px;">
+                                    <img alt="" style="width:60px;float: left;margin-right: 20px;" src="img/demo/framework.jpg">
+                                    <p class="white">
+                                        <strong>NICDARK FRAMEWORK</strong>
+                                        <br>
+                                        Speed, Clear, Optimized code and easy to use
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="nicdark_space50"></div>
-                </li>
-                <li>
-                    <a href="single-product.html"><img alt=""  class="nicdark_absolute nicdark_opacity nicdark_width60" src="catalog/view/theme/dress_shop/image/img/shop/products/img3.jpg"></a>
-                    <div class="nicdark_activity nicdark_marginleft80">
-                        <h5 class="grey subtitle">ANEMONE DRESS</h5>                        
-                        <div class="nicdark_space10"></div>
-                        <p><i class="icon-star yellow"></i><i class="icon-star yellow"></i><i class="icon-star yellow"></i><i class="icon-star yellow"></i><i class="icon-star-half-alt yellow"></i></p>
+                    <!--endd-->
+
+                </div>
+                <!--END RIGHT SIDEBAR OPEN-->
+
+                <!--START SIDEBAR-->
+                <div class="nicdark_right_sidebar nicdark_bg_greydark nicdark_nicescrool">
+
+                    <a class="nicdark_right_sidebar_btn_close nicdark_btn_icon small white nicdark_absolute_right10"><i class="icon-cancel"></i></a>
+
+                    <!--start CART-->
+                    <div class="nicdark_margin020">
+                        <div class="nicdark_space20"></div>
+                        <h4 class="white">YOUR CART</h4>
+                        <div class="nicdark_space20"></div>
+                        <div class="nicdark_divider left small">
+                            <span class="nicdark_bg_white"></span>
+                        </div>
                     </div>
-                    <div class="nicdark_space10"></div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <!--end PRODUCTS-->
+                    <div class="nicdark_textevidence">
+                        <div class="nicdark_margin20">
+                            <ul class="nicdark_list nicdark_relative">
+                                <li>
+                                    <a href="single-product.html"><img alt=""  class="nicdark_absolute nicdark_opacity nicdark_width60" src="img/shop/products/img1.jpg"></a>
+                                    <div class="nicdark_activity nicdark_marginleft80">
+                                        <h5 class="grey subtitle">AURORA DRESS</h5>
+                                        <div class="nicdark_space10"></div>
+                                        <p>
+                                            1 x $ 1000,00
+                                        </p>
+                                    </div>
+                                    <div class="nicdark_space50"></div>
+                                </li>
+                                <li>
+                                    <a href="single-product.html"><img alt=""  class="nicdark_absolute nicdark_opacity nicdark_width60" src="img/shop/products/img2.jpg"></a>
+                                    <div class="nicdark_activity nicdark_marginleft80">
+                                        <h5 class="grey subtitle">GAYA DRESS</h5>
+                                        <div class="nicdark_space10"></div>
+                                        <p>
+                                            1 x $ 1300,00
+                                        </p>
+                                    </div>
+                                    <div class="nicdark_space30"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nicdark_margin020">
+                        <h5 class="grey">SUBTOTAL: <span class="white subtitle">$ 2300,00</span></h5>
+                        <div class="nicdark_space20"></div>
+                        <div class="nicdark_focus">
+                            <a href="shop-cart.html" class="nicdark_btn nicdark_bg_greendark title small white">VIEW CART</a>
+                        </div>
+                    </div>
+                    <!--end CART-->
 
-    <!--start SEARCH-->
-    <div class="nicdark_margin020">
-        <div class="nicdark_space50"></div>
-        <h4 class="white">SEARCH YOUR DRESS</h4>
-        <div class="nicdark_space20"></div>
-        <div class="nicdark_divider left small"><span class="nicdark_bg_white"></span></div>
-    </div>
-    <div class="nicdark_margin20">
-        <input class="nicdark_bg_transparent nicdark_border_white white small subtitle" type="text" value="" placeholder="KEYWORD">
-        <div class="nicdark_space20"></div>
-        <a href="shop.html" class="nicdark_btn nicdark_bg_bluedark small title white">SEARCH</a>
-    </div>
-    <!--end SEARCH-->
+                    <!--start FILTER-->
+                    <div class="nicdark_margin020">
+                        <div class="nicdark_space60"></div>
+                        <h4 class="white">FILTER PRICE</h4>
+                        <div class="nicdark_space20"></div>
+                        <div class="nicdark_divider left small">
+                            <span class="nicdark_bg_white"></span>
+                        </div>
+                    </div>
+                    <div class="nicdark_margin020 nicdark_block">
+                        <div class="nicdark_space20"></div>
+                        <div class="nicdark_radius nicdark_bg_greydark2 nicdark_slider_range"></div>
+                        <div class="nicdark_space20"></div>
+                    </div>
+                    <div class="nicdark_margin020">
+                        <input class="nicdark_bg_greydark white subtitle small nicdark_padding0 nicdark_slider_amount" type="text">
+                        <div class="nicdark_space20"></div>
+                        <a href="shop.html" class="nicdark_btn nicdark_bg_yellowdark title small white">FILTER</a>
+                    </div>
+                    <!--END FILTER-->
 
-    <!--start TAGS-->
-    <div class="nicdark_margin020">
-        <div class="nicdark_space40"></div>
-        <h4 class="white">PRODUCTS TAGS</h4>
-        <div class="nicdark_space20"></div>
-        <div class="nicdark_divider left small"><span class="nicdark_bg_white"></span></div>
-    </div>
-    <div class="nicdark_margin10">
-        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Bride</a>
-        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Groom</a>
-        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Dress</a>
-        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Shoes</a>
-        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Witness</a>
-        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Rings</a>
-        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Jewelry</a>
-        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Flowers</a>
-        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Suit</a>
-        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Rings</a>
-        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Wedding</a>
-        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Rose</a>
-    </div>
-    <!--end TAGS-->
+                    <!--start PRODUCTS-->
+                    <div class="nicdark_margin020">
+                        <div class="nicdark_space60"></div>
+                        <h4 class="white">BEST REVIEWED</h4>
+                        <div class="nicdark_space20"></div>
+                        <div class="nicdark_divider left small">
+                            <span class="nicdark_bg_white"></span>
+                        </div>
+                    </div>
+                    <div class="nicdark_textevidence">
+                        <div class="nicdark_margin20">
+                            <ul class="nicdark_list nicdark_relative">
+                                <li>
+                                    <a href="single-product.html"><img alt=""  class="nicdark_absolute nicdark_opacity nicdark_width60" src="img/shop/products/img1.jpg"></a>
+                                    <div class="nicdark_activity nicdark_marginleft80">
+                                        <h5 class="grey subtitle">AURORA DRESS</h5>
+                                        <div class="nicdark_space10"></div>
+                                        <p>
+                                            <i class="icon-star yellow"></i><i class="icon-star yellow"></i><i class="icon-star yellow"></i><i class="icon-star yellow"></i><i class="icon-star-half-alt yellow"></i>
+                                        </p>
+                                    </div>
+                                    <div class="nicdark_space50"></div>
+                                </li>
+                                <li>
+                                    <a href="single-product.html"><img alt=""  class="nicdark_absolute nicdark_opacity nicdark_width60" src="img/shop/products/img2.jpg"></a>
+                                    <div class="nicdark_activity nicdark_marginleft80">
+                                        <h5 class="grey subtitle">GAYA DRESS</h5>
+                                        <div class="nicdark_space10"></div>
+                                        <p>
+                                            <i class="icon-star yellow"></i><i class="icon-star yellow"></i><i class="icon-star yellow"></i><i class="icon-star yellow"></i><i class="icon-star-half-alt yellow"></i>
+                                        </p>
+                                    </div>
+                                    <div class="nicdark_space50"></div>
+                                </li>
+                                <li>
+                                    <a href="single-product.html"><img alt=""  class="nicdark_absolute nicdark_opacity nicdark_width60" src="img/shop/products/img3.jpg"></a>
+                                    <div class="nicdark_activity nicdark_marginleft80">
+                                        <h5 class="grey subtitle">ANEMONE DRESS</h5>
+                                        <div class="nicdark_space10"></div>
+                                        <p>
+                                            <i class="icon-star yellow"></i><i class="icon-star yellow"></i><i class="icon-star yellow"></i><i class="icon-star yellow"></i><i class="icon-star-half-alt yellow"></i>
+                                        </p>
+                                    </div>
+                                    <div class="nicdark_space10"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--end PRODUCTS-->
 
-</div>
-<!--END SIDEBAR-->
+                    <!--start SEARCH-->
+                    <div class="nicdark_margin020">
+                        <div class="nicdark_space50"></div>
+                        <h4 class="white">SEARCH YOUR DRESS</h4>
+                        <div class="nicdark_space20"></div>
+                        <div class="nicdark_divider left small">
+                            <span class="nicdark_bg_white"></span>
+                        </div>
+                    </div>
+                    <div class="nicdark_margin20">
+                        <input class="nicdark_bg_transparent nicdark_border_white white small subtitle" type="text" value="" placeholder="KEYWORD">
+                        <div class="nicdark_space20"></div>
+                        <a href="shop.html" class="nicdark_btn nicdark_bg_bluedark small title white">SEARCH</a>
+                    </div>
+                    <!--end SEARCH-->
+
+                    <!--start TAGS-->
+                    <div class="nicdark_margin020">
+                        <div class="nicdark_space40"></div>
+                        <h4 class="white">PRODUCTS TAGS</h4>
+                        <div class="nicdark_space20"></div>
+                        <div class="nicdark_divider left small">
+                            <span class="nicdark_bg_white"></span>
+                        </div>
+                    </div>
+                    <div class="nicdark_margin10">
+                        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Bride</a>
+                        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Groom</a>
+                        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Dress</a>
+                        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Shoes</a>
+                        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Witness</a>
+                        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Rings</a>
+                        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Jewelry</a>
+                        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Flowers</a>
+                        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Suit</a>
+                        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Rings</a>
+                        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Wedding</a>
+                        <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Rose</a>
+                    </div>
+                    <!--end TAGS-->
+
+                </div>
+                <!--END SIDEBAR-->
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
