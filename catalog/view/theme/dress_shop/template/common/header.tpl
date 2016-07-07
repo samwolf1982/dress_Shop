@@ -4,106 +4,75 @@
 <!--[if IE 9 ]><html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>" class="ie9"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
-<!--<![endif]-->
-<head>
-<meta charset="UTF-8" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--meta responsive-->
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title><?php echo $title; ?></title>
-<base href="<?php echo $base; ?>" />
-<?php if ($description) { ?>
-<meta name="description" content="<?php echo $description; ?>" />
-<?php } ?>
-<?php if ($keywords) { ?>
-<meta name="keywords" content= "<?php echo $keywords; ?>" />
-<?php } ?>
-<!-- <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
-<link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
-<script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-<link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-<link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css" /> -->
-
-
-<link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
-
-    
-
-
-
-
-
-
-
-    
-    <!--START CSS--> 
-    <link rel="stylesheet" href="catalog/view/theme/dress_shop/stylesheet/css/nicdark_style.css"> <!--style-->
-    <link rel="stylesheet" href="catalog/view/theme/dress_shop/stylesheet/css/nicdark_responsive.css"> <!--nicdark_responsive-->
-
-    <!--revslider-->
-    <link rel="stylesheet" href="catalog/view/theme/dress_shop/stylesheet/css/revslider/settings.css"> <!--revslider-->
-
-    <!--END CSS-->
-    
-    <!--google fonts-->
-    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'> <!-- font-family: 'Raleway', sans-serif; -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'> <!--Roboto-->
-    <link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900,700' rel='stylesheet' type='text/css'> <!--Cinzel-->
-    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'> <!--Great Vibes-->
-
-    <!--[if lt IE 9]>  
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
-    <![endif]-->  
-    
-    <!--FAVICONS-->
-    <link rel="shortcut icon" href="catalog/view/theme/dress_shop/image/img/favicon/favicon.ico">
-    <link rel="apple-touch-icon" href="catalog/view/theme/dress_shop/image/img/favicon/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="catalog/view/theme/dress_shop/image/img/favicon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="catalog/view/theme/dress_shop/image/img/favicon/apple-touch-icon-114x114.png">
-    <!--END FAVICONS-->
-
-
-
-
-
-
-
-
-
-<!-- <?php foreach ($styles as $style) { ?>
-<link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
-<?php } ?>
-<script src="catalog/view/javascript/common.js" type="text/javascript"></script>
-<?php foreach ($links as $link) { ?>
-<link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
-<?php } ?>
-<?php foreach ($scripts as $script) { ?>
-<script src="<?php echo $script; ?>" type="text/javascript"></script>
-<?php } ?> -->
-
-
-<?php foreach ($analytics as $analytic) { ?>
-<?php echo $analytic; ?>
-<?php } ?>
-</head>
+    <!--<![endif]-->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--meta responsive-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title><?php echo $title; ?></title>
+        <base href="<?php echo $base; ?>" />
+        <?php if ($description) { ?>
+        <meta name="description" content="<?php echo $description; ?>" />
+        <?php } ?>
+        <?php if ($keywords) { ?>
+        <meta name="keywords" content= "<?php echo $keywords; ?>" />
+        <?php } ?>
+        <!-- <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+        <link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+        <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css" /> -->
+        <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+        
+        
+        <!--START CSS-->
+        <link rel="stylesheet" href="catalog/view/theme/dress_shop/stylesheet/css/nicdark_style.css"> <!--style-->
+        <link rel="stylesheet" href="catalog/view/theme/dress_shop/stylesheet/css/nicdark_responsive.css"> <!--nicdark_responsive-->
+        <!--revslider-->
+        <link rel="stylesheet" href="catalog/view/theme/dress_shop/stylesheet/css/revslider/settings.css"> <!--revslider-->
+        <!--END CSS-->
+        
+        <!--google fonts-->
+        <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'> <!-- font-family: 'Raleway', sans-serif; -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'> <!--Roboto-->
+        <link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900,700' rel='stylesheet' type='text/css'> <!--Cinzel-->
+        <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'> <!--Great Vibes-->
+        <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        
+        <!--FAVICONS-->
+        <link rel="shortcut icon" href="catalog/view/theme/dress_shop/image/img/favicon/favicon.ico">
+        <link rel="apple-touch-icon" href="catalog/view/theme/dress_shop/image/img/favicon/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="catalog/view/theme/dress_shop/image/img/favicon/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="catalog/view/theme/dress_shop/image/img/favicon/apple-touch-icon-114x114.png">
+        <!--END FAVICONS-->
+        <!-- <?php foreach ($styles as $style) { ?>
+        <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
+        <?php } ?>
+        <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+        <?php foreach ($links as $link) { ?>
+        <link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
+        <?php } ?>
+        <?php foreach ($scripts as $script) { ?>
+        <script src="<?php echo $script; ?>" type="text/javascript"></script>
+        <?php } ?> -->
+        <?php foreach ($analytics as $analytic) { ?>
+        <?php echo $analytic; ?>
+        <?php } ?>
+    </head>
     <body id="start_nicdark_framework">
-
         <!--start preloader-->
         <div class="nicdark_preloader">
             <i class="icon-heart-filled blue"></i>
         </div>
         <!--end preloader-->
-
         <div class="nicdark_site">
             <div class="nicdark_site_fullwidth nicdark_clearfix">
                 <div class="nicdark_overlay"></div>
-
-
-
                 <!--START LEFT SIDEBAR OPEN-->
                 <div class="nicdark_left_sidebar nicdark_bg_greydark nicdark_nicescrool nicdark_dark_widgets">
-
                     <a class="nicdark_left_sidebar_btn_close nicdark_btn_icon small white nicdark_absolute_right10"> <i class="icon-cancel"></i> </a>
-
                     <!--start-->
                     <div class="nicdark_margin020">
                         <div class="nicdark_space20"></div>
@@ -113,7 +82,6 @@
                             <span class="nicdark_bg_white"></span>
                         </div>
                     </div>
-
                     <div class="nicdark_textevidence">
                         <div class="nicdark_margin20">
                             <ul class="nicdark_list">
@@ -141,7 +109,6 @@
                         </div>
                     </div>
                     <!--end-->
-
                     <!--start-->
                     <div class="nicdark_margin020">
                         <div class="nicdark_space20"></div>
@@ -151,7 +118,6 @@
                             <span class="nicdark_bg_white"></span>
                         </div>
                     </div>
-
                     <div class="nicdark_textevidence">
                         <div class="nicdark_margin20">
                             <ul class="nicdark_list">
@@ -199,15 +165,11 @@
                         </div>
                     </div>
                     <!--endd-->
-
                 </div>
                 <!--END RIGHT SIDEBAR OPEN-->
-
                 <!--START SIDEBAR-->
                 <div class="nicdark_right_sidebar nicdark_bg_greydark nicdark_nicescrool">
-
                     <a class="nicdark_right_sidebar_btn_close nicdark_btn_icon small white nicdark_absolute_right10"><i class="icon-cancel"></i></a>
-
                     <!--start CART-->
                     <div class="nicdark_margin020">
                         <div class="nicdark_space20"></div>
@@ -253,7 +215,6 @@
                         </div>
                     </div>
                     <!--end CART-->
-
                     <!--start FILTER-->
                     <div class="nicdark_margin020">
                         <div class="nicdark_space60"></div>
@@ -274,7 +235,6 @@
                         <a href="shop.html" class="nicdark_btn nicdark_bg_yellowdark title small white">FILTER</a>
                     </div>
                     <!--END FILTER-->
-
                     <!--start PRODUCTS-->
                     <div class="nicdark_margin020">
                         <div class="nicdark_space60"></div>
@@ -324,7 +284,6 @@
                         </div>
                     </div>
                     <!--end PRODUCTS-->
-
                     <!--start SEARCH-->
                     <div class="nicdark_margin020">
                         <div class="nicdark_space50"></div>
@@ -340,7 +299,6 @@
                         <a href="shop.html" class="nicdark_btn nicdark_bg_bluedark small title white">SEARCH</a>
                     </div>
                     <!--end SEARCH-->
-
                     <!--start TAGS-->
                     <div class="nicdark_margin020">
                         <div class="nicdark_space40"></div>
@@ -365,25 +323,15 @@
                         <a href="#" class="nicdark_btn small white nicdark_margin10 nicdark_border_white">Rose</a>
                     </div>
                     <!--end TAGS-->
-
                 </div>
                 <!--END SIDEBAR-->
-
-
-
-<!-- END SIDEBAR  -->
-
-<!-- StaRT NAV MENU -->
-
-
-
+                <!-- END SIDEBAR  -->
+                <!-- StaRT NAV MENU -->
                 <div class="nicdark_section nicdark_navigation">
-
                     <div class="nicdark_menu_fullwidth">
-
                         <div class="nicdark_section nicdark_bg_gradient nicdark_displaynone_responsive">
                             <div class="nicdark_container nicdark_clearfix">
-<!--S Info map -->
+                                <!--S Info map -->
                                 <div class="grid grid_6 nicdark_bg_greydark percentage">
                                     <div class="nicdark_focus">
                                         <div class="nicdark_space5"></div>
@@ -393,19 +341,47 @@
                                         <div class="nicdark_space5"></div>
                                     </div>
                                 </div>
-                                 <!-- E Info map -->
-
+                                <!-- E Info map -->
                                 <div class="grid grid_6 right nicdark_bg_greydark percentage">
-
-<!--S LAN REG LOGIN -->
+                                    <!--S LAN REG LOGIN -->
                                     <div class="nicdark_activity right nicdark_bg_green">
                                         <div class="nicdark_space5"></div>
                                         <p class="greydark">
-                                            <small> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="icon-globe-2"></i>&nbsp;&nbsp;<a class="greydark nicdark_mpopup_window nicdark_outline" href="#nicdark_window">LANGUAGES</a> &nbsp;&nbsp;&nbsp;&nbsp;<span class="greendark">|</span>&nbsp;&nbsp;&nbsp;&nbsp; <i class="icon-plus"></i>&nbsp;&nbsp;<a class="greydark nicdark_mpopup_ajax nicdark_outline" href="catalog/view/theme/dress_shop/forms/form-register.html">REGISTER</a> &nbsp;&nbsp;&nbsp;&nbsp;<span class="greendark">|</span>&nbsp;&nbsp;&nbsp;&nbsp; <i class="icon-lock"></i>&nbsp;&nbsp;<a class="greydark nicdark_mpopup_ajax nicdark_outline" href="form-login.html">LOG IN</a></small>
+                                            <small> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="icon-globe-2"></i>&nbsp;&nbsp;<a class="greydark nicdark_mpopup_window nicdark_outline" href="#nicdark_window">LANGUAGES</a> &nbsp;&nbsp;&nbsp;&nbsp;<span class="greendark">|</span>&nbsp;&nbsp;&nbsp;&nbsp; <i class="icon-plus"></i>&nbsp;&nbsp;
+                                            <?php if ($logged) { ?>
+                                            <!--      <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
+                                            <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
+                                            <li><a href="<?php echo $transaction; ?>"><?php echo $text_transaction; ?></a></li>
+                                            <li><a href="<?php echo $download; ?>"><?php echo $text_download; ?></a></li>
+                                            <li><a href="<?php echo $logout; ?>"><?php echo $text_logout; ?></a></li> -->
+                                            <!--
+                                            <a class="greydark  nicdark_outline" href="/index.php?route=account/logout"><?php echo $text_logout; ?></a> -->
+                                            <?php } else { ?>
+                                            <a class="greydark nicdark_mpopup_ajax nicdark_outline" href="catalog/view/theme/dress_shop/forms/form-register.html"><?php echo $text_register; ?></a>
+                                            <?php } ?>
+                                            
+                                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="greendark">|</span>&nbsp;&nbsp;&nbsp;&nbsp; <i class="icon-lock"></i>&nbsp;&nbsp;
+                                            <?php if ($logged) { ?>
+                                            <!--      <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
+                                            <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
+                                            <li><a href="<?php echo $transaction; ?>"><?php echo $text_transaction; ?></a></li>
+                                            <li><a href="<?php echo $download; ?>"><?php echo $text_download; ?></a></li>
+                                            <li><a href="<?php echo $logout; ?>"><?php echo $text_logout; ?></a></li> -->
+
+                                              <a class="greydark  nicdark_outline" href="/index.php?route=account/logout"><?php echo $text_logout; ?></a>
+                                            <!--
+                                            <a class="greydark  nicdark_outline" href="/index.php?route=account/logout"><?php echo $text_logout; ?></a> -->
+                                            <?php } else { ?>
+                                          
+                                            
+                                            <a class="greydark nicdark_mpopup_ajax nicdark_outline" href="catalog/view/theme/dress_shop/forms/form-login.html"><?php echo $text_login; ?></a>
+                                            <?php } ?>
+
+                                            </small>
                                         </p>
                                         <div class="nicdark_space5"></div>
                                     </div>
-<!--E LAN REG LOGIN -->
+                                    <!--E LAN REG LOGIN -->
                                     <div class="nicdark_activity right nicdark_bg_greendark nicdark_oblique_right">
                                         <div class="nicdark_space5"></div>
                                         <p class="greydark">
@@ -413,37 +389,25 @@
                                         </p>
                                         <div class="nicdark_space5"></div>
                                     </div>
-
                                 </div>
-
                                 <!--info window for languages-->
                                 <?php echo $language; ?>
-
-                                        <!--end POP Lanng window-->
-
-
-                        
-
+                                <!--end POP Lanng window-->
+                                
                             </div>
                         </div>
                         <div class="nicdark_section nicdark_bg_grey fade-down">
                             <div class="nicdark_container nicdark_clearfix">
-
                                 <div class="grid grid_12 percentage">
-
                                     <div class="nicdark_space25"></div>
-
                                     <div class="nicdark_logo">
                                         <a class="nicdark_logo_normal" href="index.html"><img alt="" src="img/logo.png"></a>
                                         <a class="nicdark_logo_transparent" href="index.html"><img alt="" src="img/logo-white.png"></a>
                                     </div>
-
                                     <a class="nicdark_bg_bluedark nicdark_btn_icon nicdark_bg_blue_hover nicdark_right_sidebar_btn_open nicdark_transition nicdark_border_white  nicdark_marginleft20 extrasmall white right"><i class="icon-basket-1 nicdark_rotate nicdark_cell nicdark_vertical_middle"></i></a>
                                     <a class="nicdark_bg_bluedark nicdark_btn_icon nicdark_bg_blue_hover nicdark_left_sidebar_btn_open nicdark_transition nicdark_border_white  nicdark_marginleft10 extrasmall white right"><i class="icon-star nicdark_rotate nicdark_cell nicdark_vertical_middle"></i></a>
-
                                     <nav>
                                         <ul class="nicdark_menu nicdark_margin010 nicdark_padding50">
-
                                             <li class="greydark">
                                                 <a href="index.html">HOME</a>
                                                 <ul class="sub-menu">
@@ -627,30 +591,14 @@
                                             </li>
                                         </ul>
                                     </nav>
-
                                     <div class="nicdark_space25"></div>
-
                                 </div>
-
                             </div>
                             <!--end container-->
-
                         </div>
                         <!--end header-->
-
                     </div>
-
                 </div>
-            
-            
-
-
-
-<!-- END  NAV MENU -->
-
-
-
-
-
-
-
+                
+                
+                <!-- END  NAV MENU -->
